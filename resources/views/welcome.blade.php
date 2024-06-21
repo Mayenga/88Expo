@@ -48,9 +48,9 @@
     <script>
       $(document).ready(function(){
         document.getElementById("kaulimbiu").innerHTML = "Empowering Agriculture Sector through Responsible Leadership";
-        document.getElementById("heading").innerHTML = "The Nane Nane International <br> Trade Fair, 2024";
+        document.getElementById("heading").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
         document.getElementById("kaulimbiu2").innerHTML = "Empowering Agriculture Sector through Responsible Leadership";
-        document.getElementById("heading2").innerHTML = "The Nane Nane International <br> Trade Fair, 2024";
+        document.getElementById("heading2").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
         document.getElementById("register").innerHTML = "Register now!";
         document.getElementById("register2").innerHTML = "Register now!";
         document.getElementById("register3").innerHTML = "Register now!";
@@ -60,7 +60,7 @@
         // document.getElementById("topGetready").innerHTML = "Getting ready";
         document.getElementById("aboutUs").innerHTML = "About us";
         
-        document.getElementById("aboutUsContent").innerHTML = "The Nane Nane Day Agricultural Exhibition is an annual event that takes place on 8 August, dedicated to celebrating and recognizing the significant contribution of Agriculture, Livestock, and Fishery to the Tanzanian economy. This year, in line with the directives of H.E. President Samia Suluhu Hassan, the exhibition aims to target international visibility, fostering economic growth and global partnerships.";
+        document.getElementById("aboutUsContent").innerHTML = "Nane Nane Day Agricultural Exhibition is an annual event that takes place on 8 August, dedicated to celebrating and recognizing the significant contribution of Agriculture, Livestock, and Fishery to the Tanzanian economy. This year, in line with the directives of H.E. President Samia Suluhu Hassan, the exhibition aims to target international visibility, fostering economic growth and global partnerships.";
         
         document.getElementById("experienceHead").innerHTML = "Experience";
         
@@ -106,7 +106,7 @@
         
         $("#en").click(function(){
           document.getElementById("kaulimbiu").innerHTML = "Empowering Agriculture Sector through Responsible Leadership";
-          document.getElementById("heading").innerHTML = "The Nane Nane International <br> Trade Fair, 2024";
+          document.getElementById("heading").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
           document.getElementById("kaulimbiu2").innerHTML = "Empowering Agriculture Sector through Responsible Leadership";
           document.getElementById("heading2").innerHTML = "The Nane Nane International <br> Trade Fair, 2024";
           document.getElementById("register").innerHTML = "Register now!";
@@ -221,129 +221,7 @@
           }
         });
         $("#notifyDiv").hide();
-        $('#save_form').on('click', function(e){
-          e.preventDefault();
-          var fname = $('#fname').val();
-          var mname = $('#mname').val();
-          var lname = $('#lname').val();
-          var bemail = $('#bemail').val();
-          var gender = $('#gender').val();
-          var age = $('#age').val();
-          var country = $('#country').val();
-          var phone = $('#phone').val();
-          var email = $('#email').val();
-          var organization = $('#organization').val();
-          var organizationType = $('#organizationType').val();
-          var address = $('#address').val();
-          var registerAs = $('#registerAs').val();
-          var form = $(this).parents('form');
-              
-          $(form).validate({
-              rules: {
-                  fname: {
-                      required: true
-                  },
-                  mname: {
-                      required: true
-                  },
-                  lname: {
-                      required: true
-                  },
-                  bemail: {
-                      required: true
-                  },
-                  gender: {
-                      required: true
-                  },
-                  age: {
-                      required: true
-                  },
-                  country: {
-                      required: true
-                  },
-                  phone: {
-                      required: true
-                  },
-                  email: {
-                      required: true
-                  },
-                  address: {
-                      required: true
-                  },
-                  registerAs: {
-                      required: true
-                  }
-              },
-              messages: {
-                  fname: "First Name is a required field.",
-                  mname: "Middle Name is a required field.",
-                  lname: "Sir Name is a required field.",
-                  bemail: "Business Email is a required field.",
-                  phone: "Phone number is a required field.",
-                  address: "Address is a required field.",
-              },
-              highlight: function(element) {
-                  $(element).addClass('error')
-              },
-              submitHandler: function() {
-                  var formData = new FormData(form[0]);
-                $.ajax({
-                    type: 'POST',
-                    url: 'register',
-                    data: formData,
-                    dataType: 'JSON',
-                    processData: false,
-                    contentType: false,
-                    success:function(data){
-                        if(data.exists){
-                            $('#notifyDiv').fadeIn();
-                            $('#notifyDiv').css('color','red');
-                            $('#notifyDiv').text(data.exists);
-                            setTimeout(() => {
-                                $('#notifyDiv').fadeOut();
-                            }, 3000);
-                        }else if(data.success){
-                            $('[name="phone"]').val('');
-                            $('[name="fname"]').val('');
-                            $('[name="mname"]').val('');
-                            $('[name="lname"]').val('');
-                            $('[name="bemail"]').val('');
-                            $('[name="gender"]').val('');
-                            $('[name="age"]').val('');
-                            $('[name="country"]').val('');
-                            $('[name="email"]').val('');
-                            $('#notifyDiv').fadeIn();
-                            $('#notifyDiv').css('color','green');
-                            $('#notifyDiv').text(data.success);
-                            setTimeout(() => {
-                                $('#notifyDiv').fadeOut();
-                            }, 3000);
-                        }else if(data.error){
-                            console.log(data.error);
-                            $('#notifyDiv').fadeIn();
-                            $('#notifyDiv').css('color','red');
-                            var error = data.error;
-                            Object.entries(error).forEach(([key, value]) => {
-                                $('#notifyDiv').text(`${value}`);
-                            });
-                            setTimeout(() => {
-                                $('#notifyDiv').fadeOut();
-                            }, 3000);
-                        }
-                        else {
-                            console.log(data);
-                            $('#notifyDiv').fadeIn();
-                            $('#notifyDiv').css('color','red');
-                            $('#notifyDiv').text('An error occured. Please try later!');
-                            setTimeout(() => {
-                                $('#notifyDiv').fadeOut();
-                            }, 3000);
-                        }
-                    }
-                });
-            }
-          });
-      }); 
+        
       });
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
@@ -1172,7 +1050,7 @@
 
 
       <!-- <section> begin ============================-->
-      <section style=" background-color: #302758;">
+      <!-- <section style=" background-color: #302758;">
 
         <div class="container">
           <h3 class="text-white mb-4">FAQ</h3>
@@ -1202,7 +1080,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- ===============================================-->
     <!--    End of Main Content-->
@@ -1712,6 +1590,135 @@
     </div>
 
 
+    @push('scripts')
+  <script>
+    $(document).ready(function(){ 
+      $('#save_form').on('click', function(e){
+          e.preventDefault();
+          var fname = $('#fname').val();
+          var mname = $('#mname').val();
+          var lname = $('#lname').val();
+          var bemail = $('#bemail').val();
+          var gender = $('#gender').val();
+          var age = $('#age').val();
+          var country = $('#country').val();
+          var phone = $('#phone').val();
+          var email = $('#email').val();
+          var organization = $('#organization').val();
+          var organizationType = $('#organizationType').val();
+          var address = $('#address').val();
+          var registerAs = $('#registerAs').val();
+          var form = $(this).parents('form');
+              
+          $(form).validate({
+              rules: {
+                  fname: {
+                      required: true
+                  },
+                  mname: {
+                      required: true
+                  },
+                  lname: {
+                      required: true
+                  },
+                  bemail: {
+                      required: true
+                  },
+                  gender: {
+                      required: true
+                  },
+                  age: {
+                      required: true
+                  },
+                  country: {
+                      required: true
+                  },
+                  phone: {
+                      required: true
+                  },
+                  email: {
+                      required: true
+                  },
+                  address: {
+                      required: true
+                  },
+                  registerAs: {
+                      required: true
+                  }
+              },
+              messages: {
+                  fname: "First Name is a required field.",
+                  mname: "Middle Name is a required field.",
+                  lname: "Sir Name is a required field.",
+                  bemail: "Business Email is a required field.",
+                  phone: "Phone number is a required field.",
+                  address: "Address is a required field.",
+              },
+              highlight: function(element) {
+                  $(element).addClass('error')
+              },
+              submitHandler: function() {
+                  var formData = new FormData(form[0]);
+                $.ajax({
+                    type: 'POST',
+                    url: 'register',
+                    data: formData,
+                    dataType: 'JSON',
+                    processData: false,
+                    contentType: false,
+                    success:function(data){
+                        if(data.exists){
+                            $('#notifyDiv').fadeIn();
+                            $('#notifyDiv').css('color','red');
+                            $('#notifyDiv').text(data.exists);
+                            setTimeout(() => {
+                                $('#notifyDiv').fadeOut();
+                            }, 3000);
+                        }else if(data.success){
+                            $('[name="phone"]').val('');
+                            $('[name="fname"]').val('');
+                            $('[name="mname"]').val('');
+                            $('[name="lname"]').val('');
+                            $('[name="bemail"]').val('');
+                            $('[name="gender"]').val('');
+                            $('[name="age"]').val('');
+                            $('[name="country"]').val('');
+                            $('[name="email"]').val('');
+                            $('#notifyDiv').fadeIn();
+                            $('#notifyDiv').css('color','green');
+                            $('#notifyDiv').text(data.success);
+                            setTimeout(() => {
+                                $('#notifyDiv').fadeOut();
+                            }, 3000);
+                        }else if(data.error){
+                            console.log(data.error);
+                            $('#notifyDiv').fadeIn();
+                            $('#notifyDiv').css('color','red');
+                            var error = data.error;
+                            Object.entries(error).forEach(([key, value]) => {
+                                $('#notifyDiv').text(`${value}`);
+                            });
+                            setTimeout(() => {
+                                $('#notifyDiv').fadeOut();
+                            }, 3000);
+                        }
+                        else {
+                            console.log(data);
+                            $('#notifyDiv').fadeIn();
+                            $('#notifyDiv').css('color','red');
+                            $('#notifyDiv').text('An error occured. Please try later!');
+                            setTimeout(() => {
+                                $('#notifyDiv').fadeOut();
+                            }, 3000);
+                        }
+                    }
+                });
+            }
+          });
+      }); 
+    });
+  </script>
+    @endpush
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
