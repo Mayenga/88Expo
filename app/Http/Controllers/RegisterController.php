@@ -12,9 +12,14 @@ use App\Providers\RouteServiceProvider;
 class RegisterController extends Controller
 {
     public function save_user(Request $request){
-        $user = DB::table('users')->where('bemail', $request['bemail'])->pluck('bemail');
-        if($user == $request['bemail']){
-            return response()->json(['exists' => 'Mobile Phone already exists']);
+        // $bemail = DB::table('participants')->where('bemail', $request['bemail'])->pluck('bemail');
+        // return response()->json(['exists' => 'Details already exists : ' . $user]);
+        $bemail = DB::select("SELECT bemail FROM participants WHERE bemail = '$request->bemail'");
+        foreach($bemail As $values){
+            $bemail = $values->bemail;
+        }
+        if($bemail == $request['bemail']){
+            return response()->json(['exists' => 'Details already exists']);
         } else {
             $participant = new Participants;
             $participant->fname = $request->fname;

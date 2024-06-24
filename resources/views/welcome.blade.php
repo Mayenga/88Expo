@@ -52,7 +52,7 @@
         document.getElementById("kaulimbiu2").innerHTML = "Empowering Agriculture Sector through Responsible Leadership";
         document.getElementById("heading2").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
         document.getElementById("register").innerHTML = "Register now!";
-        document.getElementById("register2").innerHTML = "Register now!";
+        // document.getElementById("register2").innerHTML = "Register now!";
         document.getElementById("register3").innerHTML = "Register now!";
         document.getElementById("register4").innerHTML = "Register now!";
         document.getElementById("register5").innerHTML = "Register now!";
@@ -110,7 +110,7 @@
           document.getElementById("kaulimbiu2").innerHTML = "Empowering Agriculture Sector through Responsible Leadership";
           document.getElementById("heading2").innerHTML = "The Nane Nane International <br> Trade Fair, 2024";
           document.getElementById("register").innerHTML = "Register now!";
-          document.getElementById("register2").innerHTML = "Register now!";
+          // document.getElementById("register2").innerHTML = "Register now!";
           document.getElementById("register3").innerHTML = "Register now!";
           document.getElementById("register4").innerHTML = "Register now!";
           document.getElementById("register5").innerHTML = "Register now!";
@@ -157,7 +157,7 @@
           document.getElementById("kaulimbiu2").innerHTML = "Chagua Viongozi bora wa Serikali za Mitaa kwa Maendeleo Endelevu ya Kilimo, Mifugo na Uvuvi";
           document.getElementById("heading2").innerHTML = "Maonyesho ya Biashara ya Kimataifa ya Nane Nane, 2024";
           document.getElementById("register").innerHTML = "Jisajiri sasa!";
-          document.getElementById("register2").innerHTML = "Jisajiri sasa!";
+          // document.getElementById("register2").innerHTML = "Jisajiri sasa!";
           document.getElementById("register3").innerHTML = "Jisajiri sasa!";
           document.getElementById("register4").innerHTML = "Jisajiri sasa!";
           document.getElementById("register5").innerHTML = "Jisajiri sasa!";
@@ -281,7 +281,7 @@
                 </div>
               </li>
             </ul>
-            <button class="text-base ml-lg-4 mt-3 mt-lg-0 btn btn-outline-light mb-4 mb-lg-0" type="button" data-toggle="modal" data-target=".bd-example-modal-lg" id="register2"></button>
+            <!-- <button class="text-base ml-lg-4 mt-3 mt-lg-0 btn btn-outline-light mb-4 mb-lg-0" type="button" data-toggle="modal" data-target=".bd-example-modal-lg" id="register2"></button> -->
           </div>
         </div>
       </nav>
@@ -1132,7 +1132,7 @@
               <div class="from-row">
                 <div class="col-lg-9 mt-sm-0 mt-3">
                   <div class="form-group">
-                    <input class="form-control" type="text" name="lname" id="lname" required placeholder="Sir Name*">
+                    <input class="form-control" type="text" name="lname" id="lname" required placeholder="Surname*">
                   </div>
                 </div>
               </div>
@@ -1144,11 +1144,18 @@
                 </div>
               </div>
               <div class="from-row">
+                <div class="col-lg-9">
+                  <div class="form-group">
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Private/other Email Address">
+                  </div>
+                </div>
+              </div>
+              <div class="from-row">
                 <div class="col-lg-9 mt-sm-0 mt-3">
                   <div class="form-group">
                     <legend>Choose your gender:</legend>
                     <label for="male">Male</label>
-                    <input type="radio" name="gender" id="male" value="male" checked>
+                    <input type="radio" name="gender" id="male" value="male">
                     <label for="female">Female</label>
                     <input type="radio" name="gender" id="female" value="female">
                   </div>
@@ -1159,6 +1166,7 @@
                   <div class="form-group">
                     <legend>Choose your Age range:</legend>
                     <select class="form-control" id="age" name="age" required>
+                      <option value=""></option>
                       <option value="1">18-40</option>
                       <option value="2">41-65</option>
                       <option value="3">65 above</option>
@@ -1424,13 +1432,6 @@
               <div class="from-row">
                 <div class="col-lg-9">
                   <div class="form-group">
-                    <input class="form-control" type="email" name="email" id="email" required placeholder="Email Address">
-                  </div>
-                </div>
-              </div>
-              <div class="from-row">
-                <div class="col-lg-9">
-                  <div class="form-group">
                     <input class="form-control" type="text" name="organization" id="organization" placeholder="Organization/Institution Name">
                   </div>
                 </div>
@@ -1438,7 +1439,15 @@
               <div class="from-row">
                 <div class="col-lg-9">
                   <div class="form-group">
-                    <input class="form-control" type="text" name="organizationType" id="organizationType" placeholder="Organization/Institution Type">
+                    <legend>Organization/Institution Type:</legend>
+                    <select class="form-control" id="organizationType" name="organizationType">
+                      <option value="GI">Government Institution</option>
+                      <option value="RE">Research</option>
+                      <option value="NG">NGO’s</option>
+                      <option value="SP">Service Provider</option>
+                      <option value="PS">Private Sector</option>
+                      <option value="FI">Financial Institution</option>
+                    </select>
                   </div>
                 </div>
               </div>
@@ -1454,6 +1463,7 @@
                   <div class="form-group">
                     <legend>Registered As:</legend>
                     <select class="form-control" id="registerAs" name="registerAs" required> 
+                      <option value=""></option>
                       <option value="visitor">Visitor</option>
                       <option value="exhibitor">Exhibitor</option>
                       <option value="delegate">Delegate</option>
@@ -1473,6 +1483,7 @@
                   <div class="form-group">
                     <legend>Type of Booth required:</legend>
                     <select class="form-control" id="booth" name="booth">
+                      <option value=""></option>
                       <option value="9">3 * 3 (9m<sup>2</sup>)</option>
                       <option value="18">3 * 6 (18m<sup>2</sup>)</option>
                       <option value="27">3 * 9 (27m<sup>2</sup>)</option>
@@ -1487,10 +1498,8 @@
               <div class="from-row">
                 <div class="col-lg-9">
                   <div class="form-group">
-                    <legend>Method of Payment:</legend>
-                    <select class="form-control" id="registerAs">
-                      <option value="visitor">NMB BANK PLC BRANCH CODE : 505; ACCOUNT NAME : Nane Nane Kanda ya Kati; ACCOUNT NUMBER : 50501100063; SWIFT : NMIBTZTZ</option>
-                    </select>
+                    <legend>Method of Payment</legend>
+                    <legend style="font-size: small;">NMB BANK PLC BRANCH CODE : 505 <br> ACCOUNT NAME : Nane Nane Kanda ya Kati <br> ACCOUNT NUMBER : 50501100063 <br> SWIFT : NMIBTZTZ</legend>
                   </div>
                 </div>
               </div>
@@ -1594,7 +1603,6 @@
   <script>
     $(document).ready(function(){ 
       $('#save_form').on('click', function(e){
-          e.preventDefault();
           var fname = $('#fname').val();
           var mname = $('#mname').val();
           var lname = $('#lname').val();
@@ -1649,7 +1657,7 @@
               messages: {
                   fname: "First Name is a required field.",
                   mname: "Middle Name is a required field.",
-                  lname: "Sir Name is a required field.",
+                  lname: "Surname is a required field.",
                   bemail: "Business Email is a required field.",
                   phone: "Phone number is a required field.",
                   address: "Address is a required field.",
@@ -1661,7 +1669,7 @@
                   var formData = new FormData(form[0]);
                 $.ajax({
                     type: 'POST',
-                    url: 'register',
+                    url: 'register_user',
                     data: formData,
                     dataType: 'JSON',
                     processData: false,
@@ -1673,23 +1681,26 @@
                             $('#notifyDiv').text(data.exists);
                             setTimeout(() => {
                                 $('#notifyDiv').fadeOut();
-                            }, 3000);
+                            }, 5000);
                         }else if(data.success){
                             $('[name="phone"]').val('');
                             $('[name="fname"]').val('');
                             $('[name="mname"]').val('');
                             $('[name="lname"]').val('');
                             $('[name="bemail"]').val('');
-                            $('[name="gender"]').val('');
                             $('[name="age"]').val('');
                             $('[name="country"]').val('');
                             $('[name="email"]').val('');
+                            $('[name="organizationType"]').val('');
+                            $('[name="organization"]').val('');
+                            $('[name="#address"]').val('');
+                            $('[name="#registerAs"]').val('');
                             $('#notifyDiv').fadeIn();
                             $('#notifyDiv').css('color','green');
                             $('#notifyDiv').text(data.success);
                             setTimeout(() => {
                                 $('#notifyDiv').fadeOut();
-                            }, 3000);
+                            }, 5000);
                         }else if(data.error){
                             console.log(data.error);
                             $('#notifyDiv').fadeIn();
@@ -1709,7 +1720,7 @@
                             $('#notifyDiv').text('An error occured. Please try later!');
                             setTimeout(() => {
                                 $('#notifyDiv').fadeOut();
-                            }, 3000);
+                            }, 5000);
                         }
                     }
                 });

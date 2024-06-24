@@ -24,7 +24,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/register', 'App\Http\Controllers\DashboardController@save_user')->name('register');
+Route::post('/register_user', 'App\Http\Controllers\RegisterController@save_user')->name('register_user');
 
 //auth route for both 
 Route::group(['middleware' => ['auth']], function() { 
