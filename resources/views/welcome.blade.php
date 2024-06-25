@@ -47,36 +47,41 @@
     
     <script>
       $(document).ready(function(){
-        document.getElementById("kaulimbiu").innerHTML = "Empowering Agriculture Sector through Responsible Leadership";
+        document.getElementById("kaulimbiu").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
         document.getElementById("heading").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
-        document.getElementById("kaulimbiu2").innerHTML = "Empowering Agriculture Sector through Responsible Leadership";
+        document.getElementById("kaulimbiu2").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
         document.getElementById("heading2").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
-        document.getElementById("register").innerHTML = "Register now!";
+        // document.getElementById("register").innerHTML = "Register now!";
         // document.getElementById("register2").innerHTML = "Register now!";
         document.getElementById("register3").innerHTML = "Register now!";
         document.getElementById("register4").innerHTML = "Register now!";
-        document.getElementById("register5").innerHTML = "Register now!";
-        document.getElementById("topAttend").innerHTML = "Would you like to attend the exhibition";
+        document.getElementById("register5").innerHTML = "Download now!";
+        document.getElementById("register6").innerHTML = "Download now!";
+        // document.getElementById("topAttend").innerHTML = "Would you like to attend the exhibition";
         // document.getElementById("topGetready").innerHTML = "Getting ready";
         document.getElementById("aboutUs").innerHTML = "About us";
         
-        document.getElementById("aboutUsContent").innerHTML = "Nane Nane Day Agricultural Exhibition is an annual event that takes place on 8 August, dedicated to celebrating and recognizing the significant contribution of Agriculture, Livestock, and Fishery to the Tanzanian economy. This year, in line with the directives of H.E. President Samia Suluhu Hassan, the exhibition aims to target international visibility, fostering economic growth and global partnerships.";
+        document.getElementById("aboutUsContent").innerHTML = "Nane Nane Day Agricultural Exhibition is an annual event that Takes place from 1st to 8th August, dedicated to celebrating and recognizing the significant contribution of Agriculture, Livestock, and Fishery to the Tanzanian economy. This year, in line with the directives of H.E. President Samia Suluhu Hassan, the exhibition aims to target international visibility, fostering economic growth and global partnerships.";
         
         document.getElementById("experienceHead").innerHTML = "Experience";
         
         document.getElementById("experienceContent").innerHTML = "This week-long engagement serves as a vibrant platform where agriculture, livestock keepers, and agricultural stakeholders converge to showcase their products, cutting-edge technologies, innovative ideas, groundbreaking discoveries, and alternative solutions. The exhibition fosters knowledge exchange, innovation, and best practices, driving the advancement and sustainability of Tanzania's agricultural industry.";
         
         document.getElementById("exhibitorsHead").innerHTML = "Exhibitors";
-        document.getElementById("exhibitButton").innerHTML = "apply to exhibit Now!";
+        // document.getElementById("exhibitButton").innerHTML = "apply to exhibit Now!";
         document.getElementById("speakerHead").innerHTML = "Our Speakers";
-        document.getElementById("speakerButton").innerHTML = "apply to speak Now!";
+        // document.getElementById("speakerButton").innerHTML = "apply to speak Now!";
         document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
+        document.getElementById("primeMinister").innerHTML = "Prime Minister";
+        document.getElementById("vicePresident").innerHTML = "Vice President of the United Republic of Tanzania";
         document.getElementById("ministerUfugaji").innerHTML = "Minister - Ministry of Livestock and Fisheries";
         
         document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
         document.getElementById("secretaryUfugaji").innerHTML = "Permanent Secretary - Ministry of Livestock and Fisheries";
         document.getElementById("commissional").innerHTML = "Regional Commissioner, Dodoma Region";
-        document.getElementById("magic").innerHTML = "Be Part of the Magic";
+        document.getElementById("commissionalSingida").innerHTML = "Regional Commissioner, Singida Region";
+        document.getElementById("hotels").innerHTML = "List of Hotels";
+        document.getElementById("participants").innerHTML = "PARTICIPANT INFORMATION NOTE";
         document.getElementById("scheduleHead").innerHTML = "Event Schedule";
         
         document.getElementById("tbc").innerHTML = "To be confirmed";
@@ -86,7 +91,7 @@
         document.getElementById("subscribeUpdates").innerHTML = "Now to get updates!";
         
         document.getElementById("pastEventsHead").innerHTML = "Past Events";
-        document.getElementById("newsHead").innerHTML = "LATEST NEWS AND BLOG";
+        // document.getElementById("newsHead").innerHTML = "LATEST NEWS AND BLOG";
         document.getElementById("sponsorHead").innerHTML = "Event Sponsors";
         document.getElementById("pricingHead").innerHTML = "Registration Pricing";
         document.getElementById("mainsp").innerHTML = "Main Sponsor";
@@ -105,31 +110,36 @@
         document.getElementById("locationHead").innerHTML = "Location & Contact";
         
         $("#en").click(function(){
-          document.getElementById("kaulimbiu").innerHTML = "Empowering Agriculture Sector through Responsible Leadership";
+          document.getElementById("kaulimbiu").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
           document.getElementById("heading").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
-          document.getElementById("kaulimbiu2").innerHTML = "Empowering Agriculture Sector through Responsible Leadership";
+          document.getElementById("kaulimbiu2").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
           document.getElementById("heading2").innerHTML = "The Nane Nane International <br> Trade Fair, 2024";
-          document.getElementById("register").innerHTML = "Register now!";
+          // document.getElementById("register").innerHTML = "Register now!";
           // document.getElementById("register2").innerHTML = "Register now!";
           document.getElementById("register3").innerHTML = "Register now!";
           document.getElementById("register4").innerHTML = "Register now!";
-          document.getElementById("register5").innerHTML = "Register now!";
-          document.getElementById("topAttend").innerHTML = "Would you like to attend the exhibition";
+          document.getElementById("register5").innerHTML = "Download now!";
+          document.getElementById("register6").innerHTML = "Download now!";
+          // document.getElementById("topAttend").innerHTML = "Would you like to attend the exhibition";
           // document.getElementById("topGetready").innerHTML = "Getting ready";
           document.getElementById("aboutUs").innerHTML = "About us";
-          document.getElementById("aboutUsContent").innerHTML = "The Nane Nane Day Agricultural Exhibition is an annual event that takes place on 8 August, dedicated to celebrating and recognizing the significant contribution of Agriculture, Livestock, and Fishery to the Tanzanian economy. This year, in line with the directives of H.E. President Samia Suluhu Hassan, the exhibition aims to target international visibility, fostering economic growth and global partnerships.";
+          document.getElementById("aboutUsContent").innerHTML = "The Nane Nane Day Agricultural Exhibition is an annual event that Takes place from 1st to 8th August, dedicated to celebrating and recognizing the significant contribution of Agriculture, Livestock, and Fishery to the Tanzanian economy. This year, in line with the directives of H.E. President Samia Suluhu Hassan, the exhibition aims to target international visibility, fostering economic growth and global partnerships.";
           document.getElementById("experienceHead").innerHTML = "Experience";
           document.getElementById("experienceContent").innerHTML = "This week-long engagement serves as a vibrant platform where agriculture, livestock keepers, and agricultural stakeholders converge to showcase their products, cutting-edge technologies, innovative ideas, groundbreaking discoveries, and alternative solutions. The exhibition fosters knowledge exchange, innovation, and best practices, driving the advancement and sustainability of Tanzania's agricultural industry.";
           document.getElementById("exhibitorsHead").innerHTML = "Exhibitors";
-          document.getElementById("exhibitButton").innerHTML = "apply to exhibit Now!";
+          // document.getElementById("exhibitButton").innerHTML = "apply to exhibit Now!";
           document.getElementById("speakerHead").innerHTML = "Our Speakers";
-          document.getElementById("speakerButton").innerHTML = "apply to speak Now!";
+          // document.getElementById("speakerButton").innerHTML = "apply to speak Now!";
           document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
+          document.getElementById("primeMinister").innerHTML = "Prime Minister";
+          document.getElementById("vicePresident").innerHTML = "Vice President of the United Republic of Tanzania";
           document.getElementById("ministerUfugaji").innerHTML = "Minister - Ministry of Livestock and Fisheries";
           document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
           document.getElementById("secretaryUfugaji").innerHTML = "Permanent Secretary - Ministry of Livestock and Fisheries";
           document.getElementById("commissional").innerHTML = "Regional Commissioner, Dodoma Region";
-          document.getElementById("magic").innerHTML = "Be Part of the Magic";
+          document.getElementById("commissionalSingida").innerHTML = "Regional Commissioner, Singida Region";
+          document.getElementById("hotels").innerHTML = "List of Hotels";
+          document.getElementById("participants").innerHTML = "PARTICIPANT INFORMATION NOTE";
           document.getElementById("scheduleHead").innerHTML = "Event Schedule";
           document.getElementById("tbc").innerHTML = "To be confirmed";
           document.getElementById("tbc2").innerHTML = "To be confirmed";
@@ -137,7 +147,7 @@
           document.getElementById("subscribeHead2").innerHTML = "Subscribe";
           document.getElementById("subscribeUpdates").innerHTML = "Now to get updates!";
           document.getElementById("pastEventsHead").innerHTML = "Past Events";
-          document.getElementById("newsHead").innerHTML = "LATEST NEWS AND BLOG";
+          // document.getElementById("newsHead").innerHTML = "LATEST NEWS AND BLOG";
           document.getElementById("sponsorHead").innerHTML = "Event Sponsors";
           document.getElementById("pricingHead").innerHTML = "Registration Pricing";
           document.getElementById("mainsp").innerHTML = "Main Sponsor";
@@ -156,27 +166,32 @@
           document.getElementById("heading").innerHTML = "Maonyesho ya Biashara ya Kimataifa ya Nane Nane, 2024";
           document.getElementById("kaulimbiu2").innerHTML = "Chagua Viongozi bora wa Serikali za Mitaa kwa Maendeleo Endelevu ya Kilimo, Mifugo na Uvuvi";
           document.getElementById("heading2").innerHTML = "Maonyesho ya Biashara ya Kimataifa ya Nane Nane, 2024";
-          document.getElementById("register").innerHTML = "Jisajiri sasa!";
+          // document.getElementById("register").innerHTML = "Jisajiri sasa!";
           // document.getElementById("register2").innerHTML = "Jisajiri sasa!";
           document.getElementById("register3").innerHTML = "Jisajiri sasa!";
           document.getElementById("register4").innerHTML = "Jisajiri sasa!";
-          document.getElementById("register5").innerHTML = "Jisajiri sasa!";
-          document.getElementById("topAttend").innerHTML = "Je, ungependa kuhudhuria maonyesho";
+          document.getElementById("register5").innerHTML = "Pakua sasa!";
+          document.getElementById("register6").innerHTML = "Pakua sasa!";
+          // document.getElementById("topAttend").innerHTML = "Je, ungependa kuhudhuria maonyesho";
           // document.getElementById("topGetready").innerHTML = "Kujitayarisha";
           document.getElementById("aboutUs").innerHTML = "Kuhusu sisi";
-          document.getElementById("aboutUsContent").innerHTML = "Maonyesho ya Kilimo ya Siku ya Nane Nane ni hafla ya kila mwaka ambayo hufanyika tarehe 8 Agosti, yenye lengo la kuadhimisha na kutambua mchango mkubwa wa Kilimo, Mifugo, na Uvuvi katika uchumi wa Tanzania. Mwaka huu, kulingana na maagizo ya H.E. Rais Samia Suluhu Hassan, maonyesho hayo yanalenga kulenga mwonekano wa kimataifa, kukuza ukuaji wa uchumi na ushirikiano wa kimataifa.";
+          document.getElementById("aboutUsContent").innerHTML = "Maonyesho ya Kilimo ya Siku ya Nane Nane ni hafla ya kila mwaka ambayo hufanyika kuanzia tarehe 1 mpaka tarehe 8 Agosti, yenye lengo la kuadhimisha na kutambua mchango mkubwa wa Kilimo, Mifugo, na Uvuvi katika uchumi wa Tanzania. Mwaka huu, kulingana na maagizo ya H.E. Rais Samia Suluhu Hassan, maonyesho hayo yanalenga kulenga mwonekano wa kimataifa, kukuza ukuaji wa uchumi na ushirikiano wa kimataifa.";
           document.getElementById("experienceHead").innerHTML = "Uzoefu";
           document.getElementById("experienceContent").innerHTML = "Ushirikiano huu wa wiki nzima unatumika kama jukwaa mahiri ambapo kilimo, wafugaji, na wadau wa kilimo hukutana ili kuonyesha bidhaa zao, teknolojia ya kisasa, mawazo ya kibunifu, uvumbuzi wa msingi na masuluhisho mbadala. Maonyesho hayo yanakuza ubadilishanaji wa maarifa, uvumbuzi, na mbinu bora, zinazochochea maendeleo na uendelevu wa sekta ya kilimo nchini Tanzania.";
           document.getElementById("exhibitorsHead").innerHTML = "Waonyeshaji";
-          document.getElementById("exhibitButton").innerHTML = "tuma ombi la kuonyesha Sasa!";
+          // document.getElementById("exhibitButton").innerHTML = "tuma ombi la kuonyesha Sasa!";
           document.getElementById("speakerHead").innerHTML = "Wasemaji wetu";
-          document.getElementById("speakerButton").innerHTML = "omba kuongea Sasa!";
+          // document.getElementById("speakerButton").innerHTML = "omba kuongea Sasa!";
           document.getElementById("ministerAgriculture").innerHTML = "Waziri - Wizara ya Kilimo";
+          document.getElementById("primeMinister").innerHTML = "Waziri Mkuu";
+          document.getElementById("vicePresident").innerHTML = "Makamu wa Rais wa Jamhuri ya Muungano wa Tanzania";
           document.getElementById("ministerUfugaji").innerHTML = "Waziri - Wizara ya Mifugo na Uvuvi";
           document.getElementById("secretaryAgriculture").innerHTML = "Katibu Mkuu - Wizara ya Kilimo";
           document.getElementById("secretaryUfugaji").innerHTML = "Katibu Mkuu - Wizara ya Mifugo na Uvuvi";
           document.getElementById("commissional").innerHTML = "Mkuu wa Mkoa wa Dodoma";
-          document.getElementById("magic").innerHTML = "Kuwa Sehemu ya Uchawi";
+          document.getElementById("commissionalSingida").innerHTML = "Mkuu wa Mkoa wa Singida";
+          document.getElementById("hotels").innerHTML = "Orodha ya hoteli";
+          document.getElementById("participants").innerHTML = "Maelezo ya Mshiriki";
           document.getElementById("scheduleHead").innerHTML = "Ratiba ya Tukio";
           document.getElementById("tbc").innerHTML = "Ili kuthibitishwa";
           document.getElementById("tbc2").innerHTML = "Ili kuthibitishwa";
@@ -184,7 +199,7 @@
           document.getElementById("subscribeHead2").innerHTML = "Jisajili";
           document.getElementById("subscribeUpdates").innerHTML = "Sasa ili kupata sasisho!";
           document.getElementById("pastEventsHead").innerHTML = "Matukio ya Zamani";
-          document.getElementById("newsHead").innerHTML = "HABARI MPYA NA BLOG";
+          // document.getElementById("newsHead").innerHTML = "HABARI MPYA NA BLOG";
           document.getElementById("sponsorHead").innerHTML = "Wafadhili wa hafla";
           document.getElementById("pricingHead").innerHTML = "Bei ya Usajili";
           document.getElementById("mainsp").innerHTML = "Mfadhili Mkuu";
@@ -337,7 +352,7 @@
           </li>
         </ul>
       </div>
-      <div class="alert alert-light alert-dismissible fade show sticky-kit shadow-sm rounded-0 mb-0" role="alert">
+      <!-- <div class="alert alert-light alert-dismissible fade show sticky-kit shadow-sm rounded-0 mb-0" role="alert">
         <div class="row justify-content-center">
           <div class="col-md-4 col-lg-5 border-md border-lg-0 rounded-soft">
             <p class="mb-0 text-base text-lg-right text-center mt-lg-2" id="topAttend"></p>
@@ -346,7 +361,7 @@
           <div class="col-md-4 col-lg-4 text-center text-md-left mt-1 mt-md-0"><a class="btn btn-danger btn-lg" href="#" data-fancyscroll="data-fancyscroll" data-toggle="modal" data-target=".bd-example-modal-lg" id="register"></a></div>
         </div>
         <button class="close mt-md-2" type="button" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
-      </div>
+      </div> -->
 
 
       <!-- <section> begin ============================-->
@@ -383,52 +398,92 @@
           <div class="row pb-3 pb-lg-5">
             <div class="col-lg-3"><img class="img-fluid d-none d-lg-block h-100 rounded-soft fit-cover" src="{{ asset('77assets/img/team/exhibitors/rev-slider-03.jpeg') }}" alt="" />
               
-                <a class="btn btn-block btn-lg btn-primary mt-lg-6 mt-3 ls" href="#price" data-fancyscroll="data-fancyscroll" id="exhibitButton"></a>
+                <!-- <a class="btn btn-block btn-lg btn-primary mt-lg-6 mt-3 ls" href="#price" data-fancyscroll="data-fancyscroll" id="exhibitButton"></a> -->
               
             </div>
             <div class="col-lg-9 pl-lg-6">
               <div class="row">
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
-                    <div class="col-5"><img class="rounded-soft img-fluid" src="{{ asset('77assets/img/team/exhibitors/2.png') }}" alt="thumb-image" /></div>
-                    <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Southern Agricultural Growth Corridor of Tanzania (SAGCOT)</p>
-                      <p class="fs--1 font-weight-extra-bold mb-1 text-300 ls text-uppercase">https://sagcot.co.tz/</p>
-                      <div class="col pl-0"><a href="#"><span class="fab fa-twitter text-white-70"></span></a><a class="mx-2" href="#"><span class="fab fa-linkedin-in text-white-70"></span></a><a href="#"><span class="fab fa-instagram text-white-70"></span></a></div>
-                      <p class="mt-2 text-400 font-italic mb-0">Southern Agricultural Growth Corridor of Tanzania (SAGCOT). was established as a public private partnership, with an objective to transform agriculture in Tanzania's Southern corridor.</p>
+                    <div class="col col pl-0">
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Crops, livestock, and fisheries producers and processors.</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
-                    <div class="col-5"><img class="rounded-soft img-fluid" src="{{ asset('77assets/img/team/exhibitors/3.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Japan International Cooperation Agency (JICA)</p>
-                      <p class="fs--1 font-weight-extra-bold mb-1 text-300 ls text-uppercase">https://www.jica.go.jp/</p>
-                      <div class="col pl-0"><a href="#"><span class="fab fa-twitter text-white-70"></span></a><a class="mx-2" href="#"><span class="fab fa-linkedin-in text-white-70"></span></a><a href="#"><span class="fab fa-google-plus-g text-white-70"></span></a></div>
-                      <p class="mt-2 text-400 font-italic mb-0">The Japan International Cooperation Agency is a governmental agency that delivers the bulk of Official Development Assistance for the government of Japan. It is chartered with assisting economic and social growth in developing countries, and the promotion of internationa.</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Companies and Institutions dealing with agricultural inputs.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-6 mb-5 mb-md-0">
+                <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
-                    <div class="col-5"><img class="rounded-soft img-fluid" src="{{ asset('77assets/img/team/exhibitors/4.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Tanzania Agricultural Development Bank (TADB)</p>
-                      <p class="fs--1 font-weight-extra-bold mb-1 text-300 ls text-uppercase">https://www.tadb.co.tz/</p>
-                      <div class="col pl-0"><a href="#"><span class="fab fa-twitter text-white-70"></span></a><a class="mx-2" href="#"><span class="fab fa-linkedin-in text-white-70"></span></a><a href="#"><span class="fab fa-google-plus-g text-white-70"></span></a></div>
-                      <p class="mt-2 text-400 font-italic mb-0">The Tanzania Agricultural Development Bank (TADB) is bank in Tanzania dedicated to farmers. The government has pledged to provide $500 million (TSh 850 bn) as working capital.</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Providers of agricultural machineries and equipment</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-6">
+                <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
-                    <div class="col-5"><img class="rounded-soft img-fluid" src="{{ asset('77assets/img/team/exhibitors/5.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">International Fund for Agricultural Development (IFAD)</p>
-                      <p class="fs--1 font-weight-extra-bold mb-1 text-300 ls text-uppercase">https://www.ifad.org/en/</p>
-                      <div class="col pl-0"><a href="#"><span class="fab fa-twitter text-white-70"></span></a><a class="mx-2" href="#"><span class="fab fa-linkedin-in text-white-70"></span></a><a href="#"><span class="fab fa-google-plus-g text-white-70"></span></a></div>
-                      <p class="mt-2 text-400 font-italic mb-0">The International Fund for Agricultural Development is an international financial institution and a specialised agency of the United Nations that works to address poverty and hunger in rural areas of developing countries.</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Sector Ministries and other Ministries</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-6 mb-5">
+                  <div class="row">
+                    <div class="col pl-0">
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Governmental and Non-Governmental Institutions</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-6 mb-5">
+                  <div class="row">
+                    <div class="col pl-0">
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Parliamentary and diplomatic delegates</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-6 mb-5">
+                  <div class="row">
+                    <div class="col pl-0">
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Development Partners</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-6 mb-5">
+                  <div class="row">
+                    <div class="col pl-0">
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Financial Institutions</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-6 mb-5">
+                  <div class="row">
+                    <div class="col pl-0">
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Educational Institutions</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-6 mb-5">
+                  <div class="row">
+                    <div class="col pl-0">
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Health Institutions</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-6 mb-5">
+                  <div class="row">
+                    <div class="col pl-0">
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Telecommunication companies and journalist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-6 mb-5">
+                  <div class="row">
+                    <div class="col pl-0">
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Logistics services providers</p>
                     </div>
                   </div>
                 </div>
@@ -449,21 +504,39 @@
         <div class="container">
           <h3 class="mb-lg-6 mb-4" id="speakerHead"></h3>
           <div class="row">
-            <div class="col-lg-3">
+            <!-- <div class="col-lg-3">
               <a class="btn btn-block btn-lg btn-primary mt-lg-6 mt-3 ls" href="#price" data-fancyscroll="data-fancyscroll" id="speakerButton"></a>
-            </div>
-            <div class="col-lg-9 pl-lg-6 mt-5 mt-lg-0">
+            </div> -->
+            <div class="col-lg-12 pl-lg-6 mt-5 mt-lg-0">
               <div class="row">
                 <div class="col-sm-10 col-md-6 mt-5">
                   <div class="row">
-                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/bashe.jpg') }}" alt="thumb-image" /></div>
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/mpango.png') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Dr. Philip Isdor Mpango</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="vicePresident"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-6 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/waziriMkuu.png') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Kassim Majaliwa Majaliwa</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="primeMinister"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-4 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/bashe.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
                       <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Hussein Mohamed Bashe (MP)</h6>
                       <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="ministerAgriculture"></p>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-6 mt-5">
+                <div class="col-sm-10 col-md-4 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/waziri.jpg') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -472,30 +545,39 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-6 mt-5">
+                <div class="col-sm-10 col-md-4 mt-5">
                   <div class="row">
-                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/gerlad.jpeg') }}" alt="thumb-image" /></div>
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/gerlad.jpg') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
                       <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Gerald Geofrey Mweli</h6>
                       <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="secretaryAgriculture"></p>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-6 mt-5">
+                <div class="col-sm-10 col-md-4 mt-5">
                   <div class="row">
-                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/katibuMkuu.jpeg') }}" alt="thumb-image" /></div>
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/katibuMkuu.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
                       <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Prof. Riziki S Shemdoe</h6>
                       <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="secretaryUfugaji"></p>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-6 mt-5">
+                <div class="col-sm-10 col-md-4 mt-5">
                   <div class="row">
-                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/rosemary.jpeg') }}" alt="thumb-image" /></div>
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/rosemary.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
                       <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Mhe. Rosemary Senyamule</h6>
                       <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="commissional"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-4 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/halimaOmary.png') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">HON. HALIMA OMARY DENDEGO</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="commissionalSingida"></p>
                     </div>
                   </div>
                 </div>
@@ -516,8 +598,8 @@
         <div class="container">
           <div class="row text-white justify-content-center">
             <div class="col-xl-7 col-lg-9 text-center">
-              <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="magic"></h3>
-              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="#" data-fancyscroll="data-fancyscroll" data-toggle="modal" data-target=".bd-example-modal-lg" id="register5"></a>
+              <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="hotels"></h3>
+              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/LIST OF HOTELS - DODOMA 88.pdf" target="_blank" id="register5"></a>
             </div>
           </div>
         </div>
@@ -753,7 +835,7 @@
       </section>
 
       <!-- home-blog section-html start  -->
-      <section class="home-blog-section">
+      <!-- <section class="home-blog-section">
         <div class="container">
             <h3 class="mb-6 ml-2" id="newsHead"></h3>
             <div class="inner-blog-wrapper">
@@ -830,6 +912,22 @@
                     </div>
                 </article>
             </div>
+        </div>
+      </section> -->
+
+      <!-- <section> begin ============================-->
+      <section>
+        <div class="bg-holder overlay overlay-1" style="background-image:url(77assets/img/background/submit-bg.jpeg);">
+        </div>
+        <!--/.bg-holder-->
+
+        <div class="container">
+          <div class="row text-white justify-content-center">
+            <div class="col-xl-7 col-lg-9 text-center">
+              <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="participants"></h3>
+              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/88 Participant Information Note 2024 REVISED VERSION 24062024.pdf" target="_blank" id="register6"></a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -1037,7 +1135,7 @@
                 </div>
               </div>
               <div class="googlemap rounded-soft mt-4 mt-lg-0" style="min-height:245px;">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252270.37152812092!2d33.287637487994935!3d-8.90517954780659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1900a01e711399cd%3A0x4012f53f751f23a5!2sDodoma!5e0!3m2!1sen!2stz!4v1697557504344!5m2!1sen!2stz" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253867.83531239093!2d35.60833721724603!3d-6.17292225840487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184de55feeaa7ec9%3A0x8040bf1262e19cee!2sDodoma!5e0!3m2!1sen!2stz!4v1719317677289!5m2!1sen!2stz" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <!-- <div class="marker-content">
                   <h5>Eiffel Tower</h5>
                   <p>Gustave Eiffel's iconic, wrought-iron 1889 tower,<br /> with steps and elevators to observation decks.</p>
