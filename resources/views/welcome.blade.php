@@ -311,7 +311,7 @@
             <!-- <section> begin ============================-->
             <section class="py-0 text-center text-white">
 
-              <div class="bg-holder overlay" style="background-image:url(77assets/img/background/agriculture-01.png);">
+              <div class="bg-holder overlay" style="background-image:url(77assets/img/background/agriculture-01.jpeg);">
               </div>
               <!--/.bg-holder-->
 
@@ -335,7 +335,7 @@
             <!-- <section> begin ============================-->
             <section class="py-0 text-center text-white">
 
-              <div class="bg-holder overlay" style="background-image:url(77assets/img/background/agriculture-02.png);">
+              <div class="bg-holder overlay" style="background-image:url(77assets/img/background/agriculture-02.jpeg);">
               </div>
               <!--/.bg-holder-->
 
