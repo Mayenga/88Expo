@@ -60,6 +60,7 @@
         document.getElementById("register4").innerHTML = "Register now!";
         document.getElementById("register5").innerHTML = "Download now!";
         document.getElementById("register6").innerHTML = "Download now!";
+        document.getElementById("register7").innerHTML = "Download now!";
         // document.getElementById("topAttend").innerHTML = "Would you like to attend the exhibition";
         // document.getElementById("topGetready").innerHTML = "Getting ready";
         document.getElementById("aboutUs").innerHTML = "About us";
@@ -85,9 +86,10 @@
         document.getElementById("commissionalSingida").innerHTML = "Regional Commissioner, Singida Region";
         document.getElementById("hotels").innerHTML = "List of Hotels";
         document.getElementById("participants").innerHTML = "PARTICIPANT INFORMATION NOTE";
+        document.getElementById("mockup").innerHTML = "THE INTERNATIONAL AGRICULTURE TRADE SHOW MOCKUP DESIGN";
         document.getElementById("scheduleHead").innerHTML = "Event Schedule";
         
-        document.getElementById("tbc").innerHTML = "To be confirmed";
+        // document.getElementById("tbc").innerHTML = "To be confirmed";
         document.getElementById("tbc2").innerHTML = "To be confirmed";
         document.getElementById("subscribeHead").innerHTML = "Subscribe";
         document.getElementById("subscribeHead2").innerHTML = "Subscribe";
@@ -96,19 +98,19 @@
         document.getElementById("pastEventsHead").innerHTML = "Past Events";
         // document.getElementById("newsHead").innerHTML = "LATEST NEWS AND BLOG";
         document.getElementById("sponsorHead").innerHTML = "Event Sponsors";
-        document.getElementById("pricingHead").innerHTML = "Registration Pricing";
-        document.getElementById("mainsp").innerHTML = "Main Sponsor";
+        document.getElementById("pricingHead").innerHTML = "Exhibition Sponsorship Packages";
+        document.getElementById("mainsp").innerHTML = "Main Sponsor (TANZANITE CATEGORY)";
         
         // document.getElementById("mainremain").innerHTML = "1 Remaining";
         
-        document.getElementById("regularsp").innerHTML = "Regular Sponsor";
+        document.getElementById("regularsp").innerHTML = "Main Sponsor (PLATNUM CATEGORY)";
         // document.getElementById("regularremain").innerHTML = "20 Remaining";
         // $("#sw").on( "click", function() {
         //   alert( "Handler for `click` called." );
         // });
-        document.getElementById("ordinarysp").innerHTML = "Ordinary Sponsor";
+        document.getElementById("ordinarysp").innerHTML = "Main Sponsor (GOLD CATEGORY)";
         // document.getElementById("ordinaryremain").innerHTML = "68 Remaining";
-        document.getElementById("othersp").innerHTML = "Other Sponsor";
+        document.getElementById("othersp").innerHTML = "Forum Sponsors (8)";
         // document.getElementById("otherremain").innerHTML = "20 Remaining";
         document.getElementById("locationHead").innerHTML = "Location & Contact";
         
@@ -123,6 +125,7 @@
           document.getElementById("register4").innerHTML = "Register now!";
           document.getElementById("register5").innerHTML = "Download now!";
           document.getElementById("register6").innerHTML = "Download now!";
+          document.getElementById("register7").innerHTML = "Download now!";
           // document.getElementById("topAttend").innerHTML = "Would you like to attend the exhibition";
           // document.getElementById("topGetready").innerHTML = "Getting ready";
           document.getElementById("aboutUs").innerHTML = "About us";
@@ -143,8 +146,9 @@
           document.getElementById("commissionalSingida").innerHTML = "Regional Commissioner, Singida Region";
           document.getElementById("hotels").innerHTML = "List of Hotels";
           document.getElementById("participants").innerHTML = "PARTICIPANT INFORMATION NOTE";
+          document.getElementById("mockup").innerHTML = "THE INTERNATIONAL AGRICULTURE TRADE SHOW MOCKUP DESIGN";
           document.getElementById("scheduleHead").innerHTML = "Event Schedule";
-          document.getElementById("tbc").innerHTML = "To be confirmed";
+          // document.getElementById("tbc").innerHTML = "To be confirmed";
           document.getElementById("tbc2").innerHTML = "To be confirmed";
           document.getElementById("subscribeHead").innerHTML = "Subscribe";
           document.getElementById("subscribeHead2").innerHTML = "Subscribe";
@@ -152,14 +156,14 @@
           document.getElementById("pastEventsHead").innerHTML = "Past Events";
           // document.getElementById("newsHead").innerHTML = "LATEST NEWS AND BLOG";
           document.getElementById("sponsorHead").innerHTML = "Event Sponsors";
-          document.getElementById("pricingHead").innerHTML = "Registration Pricing";
-          document.getElementById("mainsp").innerHTML = "Main Sponsor";
+          document.getElementById("pricingHead").innerHTML = "Exhibition Sponsorship Packages";
+          document.getElementById("mainsp").innerHTML = "Main Sponsor (TANZANITE CATEGORY)";
           document.getElementById("mainremain").innerHTML = "1 Remaining";
-          document.getElementById("regularsp").innerHTML = "Regular Sponsor";
+          document.getElementById("regularsp").innerHTML = "MAIN SPONSOR (PLATNUM CATEGORY)";
           document.getElementById("regularremain").innerHTML = "20 Remaining";
-          document.getElementById("ordinarysp").innerHTML = "Ordinary Sponsor";
+          document.getElementById("ordinarysp").innerHTML = "Main Sponsor (GOLD CATEGORY)";
           document.getElementById("ordinaryremain").innerHTML = "68 Remaining";
-          document.getElementById("othersp").innerHTML = "Other Sponsor";
+          document.getElementById("othersp").innerHTML = "Forum Sponsors (8)";
           document.getElementById("otherremain").innerHTML = "20 Remaining";
           document.getElementById("locationHead").innerHTML = "Location & Contact";
 
@@ -175,6 +179,7 @@
           document.getElementById("register4").innerHTML = "Jisajiri sasa!";
           document.getElementById("register5").innerHTML = "Pakua sasa!";
           document.getElementById("register6").innerHTML = "Pakua sasa!";
+          document.getElementById("register7").innerHTML = "Pakua sasa!";
           // document.getElementById("topAttend").innerHTML = "Je, ungependa kuhudhuria maonyesho";
           // document.getElementById("topGetready").innerHTML = "Kujitayarisha";
           document.getElementById("aboutUs").innerHTML = "Kuhusu sisi";
@@ -195,8 +200,9 @@
           document.getElementById("commissionalSingida").innerHTML = "Mkuu wa Mkoa wa Singida";
           document.getElementById("hotels").innerHTML = "Orodha ya hoteli";
           document.getElementById("participants").innerHTML = "Maelezo ya Mshiriki";
+          document.getElementById("mockup").innerHTML = "BIASHARA YA KILIMO YA KIMATAIFA YA MAONYESHO YA MCHEZO";
           document.getElementById("scheduleHead").innerHTML = "Ratiba ya Tukio";
-          document.getElementById("tbc").innerHTML = "Ili kuthibitishwa";
+          // document.getElementById("tbc").innerHTML = "Ili kuthibitishwa";
           document.getElementById("tbc2").innerHTML = "Ili kuthibitishwa";
           document.getElementById("subscribeHead").innerHTML = "Jisajili";
           document.getElementById("subscribeHead2").innerHTML = "Jisajili";
@@ -204,14 +210,14 @@
           document.getElementById("pastEventsHead").innerHTML = "Matukio ya Zamani";
           // document.getElementById("newsHead").innerHTML = "HABARI MPYA NA BLOG";
           document.getElementById("sponsorHead").innerHTML = "Wafadhili wa hafla";
-          document.getElementById("pricingHead").innerHTML = "Bei ya Usajili";
-          document.getElementById("mainsp").innerHTML = "Mfadhili Mkuu";
+          document.getElementById("pricingHead").innerHTML = "Vifurushi vya Ufadhili wa Maonyesho";
+          document.getElementById("mainsp").innerHTML = "Mfadhili Mkuu (KATEGORIA YA TANZANITE)";
           document.getElementById("mainremain").innerHTML = "1 Iliyobaki";
-          document.getElementById("regularsp").innerHTML = "Mfadhili wa Kawaida";
+          document.getElementById("regularsp").innerHTML = "Mfadhili Mkuu (KATEGORIA YA PLATNAM)";
           document.getElementById("regularremain").innerHTML = "20 Iliyobaki";
-          document.getElementById("ordinarysp").innerHTML = "Mfadhili wa Kawaida";
+          document.getElementById("ordinarysp").innerHTML = "Mfadhili Mkuu (KATEGORIA YA DHAHABU)";
           document.getElementById("ordinaryremain").innerHTML = "68 Iliyobaki";
-          document.getElementById("othersp").innerHTML = "Mfadhili mwingine";
+          document.getElementById("othersp").innerHTML = "Mfadhili wa Jukwaa";
           document.getElementById("otherremain").innerHTML = "20 Iliyobaki";
           document.getElementById("locationHead").innerHTML = "Mahali na Mawasiliano";
         });
@@ -500,6 +506,21 @@
         </div>
       </section>
 
+      <!-- <section> begin ============================-->
+      <section>
+        <div class="bg-holder overlay overlay-1" style="background-image:url(77assets/img/background/submit-bg.jpeg);">
+        </div>
+        <!--/.bg-holder-->
+
+        <div class="container">
+          <div class="row text-white justify-content-center">
+            <div class="col-xl-7 col-lg-9 text-center">
+              <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="participants"></h3>
+              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/88 Participant Information Note 2024 REVISED VERSION 24062024.pdf" target="_blank" id="register6"></a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- <section> begin ============================-->
       <section id="Speakers">
@@ -618,145 +639,223 @@
 
         <div class="container">
           <h3 class="mb-6" id="scheduleHead"></h3>
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-lg-12 text-uppercase">
               <p class="font-weight-bold" id="tbc"></p>
             </div>
-          </div>
-          <!-- <div class="row">
+          </div> -->
+          <div class="row">
             <div class="col-lg-3 text-uppercase">
               <h5 class="font-weight-normal ls mb-0">day 1 august 01</h5>
-              <p class="font-weight-bold">soho garden</p>
+              <!-- <p class="font-weight-bold"></p> -->
             </div>
             <div class="col-lg-8">
               <div class="media">
-                <div class="time-width">07:00 </div>
+                <div class="time-width">EVENT </div>
                 <div class="dash mx-1">-</div>
                 <div class="media-body">
-                  <p class="font-weight-bold mb-0">Registration and Exhibition</p>
+                  <p class="font-weight-bold mb-0">The Exhibition Opening Ceremony</p>
                 </div>
               </div>
               <div class="media">
-                <div class="time-width">23:00</div>
-                <div class="dash mx-1">-</div>
+                <!-- <div class="time-width">23:00</div>
+                <div class="dash mx-1">-</div> -->
                 <div class="media-body">
-                  <p class="mb-0">Breakfast and Exhibition</p>
-                  <p class="font-weight-bold text-500">Dress code: Smart Casual (NO Cap-sleeveless-Short-Flipflop-sandal)</p>
+                  <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
+                  <p class="mb-0">Hon. Philip Isdor Mpango, The Vice President of The United Republic of Tanzania.</p>
                 </div>
               </div>
             </div>
           </div>
           <hr class="bg-hr" />
-          <div class="row mt-4 pb-3">
+          <div class="row">
             <div class="col-lg-3 text-uppercase">
-              <h5 class="font-weight-normal mb-0 ls">day 2 august 02</h5>
-              <p class="font-weight-bold">GALLERY AT MEYDAN HOTEL</p>
+              <h5 class="font-weight-normal ls mb-0">day 2 august 02</h5>
+              <!-- <p class="font-weight-bold"></p> -->
             </div>
             <div class="col-lg-8">
-              <div class="media align-items-center">
-                <div class="time-width">07:00</div>
+              <div class="media">
+                <div class="time-width">EVENT </div>
                 <div class="dash mx-1">-</div>
                 <div class="media-body">
-                  <p class="font-weight-bold mb-0">Breakfast at the meydan hotel</p>
+                  <p class="font-weight-bold mb-0">Visiting the exhibitions booths</p>
                 </div>
               </div>
               <div class="media">
-                <div class="time-width">08:00</div>
-                <div class="dash mx-1">-</div>
+                <!-- <div class="time-width">23:00</div>
+                <div class="dash mx-1">-</div> -->
                 <div class="media-body">
-                  <p class="mb-0">Farriers Restaurant</p>
-                </div>
-              </div>
-              <div class="media mt-4">
-                <div class="time-width">09:00</div>
-                <div class="dash mx-1">-</div>
-                <div class="media-body">
-                  <p class="font-weight-bold mb-0">Opening remark</p>
-                </div>
-              </div>
-              <div class="media">
-                <div class="time-width">09:30</div>
-                <div class="dash mx-1">-</div>
-                <div class="media-body">
-                  <p class="mb-0">State of New Design Trends in 2019</p>
-                </div>
-              </div>
-              <div class="media mt-3">
-                <div class="time-width">11:50</div>
-                <div class="dash mx-1">-</div>
-                <div class="media-body">
-                  <p class="font-weight-bold mb-0">Meet our featured startups from Collision 2018</p>
-                </div>
-              </div>
-              <div class="media">
-                <div class="time-width">21:00</div>
-                <div class="dash mx-1">-</div>
-                <div class="media-body">
-                  <p class="mb-0">CO is fast becoming a major source of funding for startups around the world. Will this continue and how will regulators around the world react to this? What are new emerging areas of traditional financing that could be disrupted through tokenization?</p>
+                  <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
+                  <p class="mb-0">Hon. Dkt Tulia Ackson (MP), Speaker of The Parliment of The United Republic of Tanzania.</p>
                 </div>
               </div>
             </div>
           </div>
-          <hr class="bg-hr mt-0" />
-          <div class="row mt-4">
+          <hr class="bg-hr" />
+          <div class="row">
             <div class="col-lg-3 text-uppercase">
-              <h5 class="text-primary font-weight-normal button-font-space mb-0">day 3 august 03</h5>
-              <p class="font-weight-bold">The Hazelton Hotel</p>
+              <h5 class="font-weight-normal ls mb-0">day 3 august 03</h5>
+              <!-- <p class="font-weight-bold"></p> -->
             </div>
             <div class="col-lg-8">
               <div class="media">
-                <div class="time-width">10:00</div>
+                <div class="time-width">EVENT </div>
                 <div class="dash mx-1">-</div>
                 <div class="media-body">
-                  <p class="font-weight-bold mb-0">Breakfast at the meydan hotel</p>
+                  <p class="font-weight-bold mb-0">Youth and Women Workshop and Issuance of Agricultural Creative Youth Awards.</p>
                 </div>
               </div>
               <div class="media">
-                <div class="time-width">08:00</div>
-                <div class="dash mx-1">- </div>
+                <!-- <div class="time-width">23:00</div>
+                <div class="dash mx-1">-</div> -->
                 <div class="media-body">
-                  <p class="mb-0">Farriers Restaurant</p>
-                </div>
-              </div>
-              <div class="media mt-4">
-                <div class="time-width">07:00</div>
-                <div class="dash mx-1">- </div>
-                <div class="media-body">
-                  <p class="font-weight-bold mb-0">Meet our first 150 speakers. We're adding more every week</p>
-                </div>
-              </div>
-              <div class="media">
-                <div class="time-width">06:30</div>
-                <div class="dash mx-1">- </div>
-                <div class="media-body">
-                  <p class="mb-0">State of New Design Trends in 2019</p>
-                </div>
-              </div>
-              <div class="media mt-4">
-                <div class="time-width">11:11</div>
-                <div class="dash mx-1">- </div>
-                <div class="media-body">
-                  <p class="font-weight-bold mb-0">Panel discussion #1 - future of uX design and global networking</p>
-                </div>
-              </div>
-              <div class="media">
-                <div class="time-width">09:30</div>
-                <div class="dash mx-1">- </div>
-                <div class="media-body">
-                  <p class="font-weight-bold mb-0">Influencers, and Cambridge Analytica</p>
-                </div>
-              </div>
-              <div class="media">
-                <div class="time-width">23:00</div>
-                <div class="dash mx-1">- </div>
-                <div class="media-body">
-                  <p class="mb-0">AI has become an Arms race among major corporations in U.S. and China. But, there are a group of VCs and blockchain AI entrepreneurs taking on the tasks of decentralizing AI and data ownership. What are their latest projects?</p>
+                  <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
+                  <p class="mb-0">Hon. Kassim Majaliwa Majaliwa(MP), The Prime Minister of The United Republic of Tanzania Government.</p>
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
+          <hr class="bg-hr" />
+          <div class="row">
+            <div class="col-lg-3 text-uppercase">
+              <h5 class="font-weight-normal ls mb-0">day 4 august 04</h5>
+              <!-- <p class="font-weight-bold"></p> -->
+            </div>
+            <div class="col-lg-8">
+              <div class="media">
+                <div class="time-width">EVENT </div>
+                <div class="dash mx-1">-</div>
+                <div class="media-body">
+                  <p class="font-weight-bold mb-0">Visiting the exhibitions booths</p>
+                </div>
+              </div>
+              <div class="media">
+                <!-- <div class="time-width">23:00</div>
+                <div class="dash mx-1">-</div> -->
+                <div class="media-body">
+                  <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
+                  <p class="mb-0">i.	Hon. Anthony Mavunde (MP), The Minister for Minerals – (workshop) </p>
+                  <p class="mb-0">ii.	Hon. Mohamed O. Mchengerwa (MP), The Country Minister, President Office, Regional Administrative and Local  Government – (exhibitions booths visits)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="bg-hr" />
+          <div class="row">
+            <div class="col-lg-3 text-uppercase">
+              <h5 class="font-weight-normal ls mb-0">day 5 august 05</h5>
+              <!-- <p class="font-weight-bold"></p> -->
+            </div>
+            <div class="col-lg-8">
+              <div class="media">
+                <div class="time-width">EVENT </div>
+                <div class="dash mx-1">-</div>
+                <div class="media-body">
+                  <p class="font-weight-bold mb-0">National Livestock Parade</p>
+                </div>
+              </div>
+              <div class="media">
+                <!-- <div class="time-width">23:00</div>
+                <div class="dash mx-1">-</div> -->
+                <div class="media-body">
+                  <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
+                  <p class="mb-0">Hon. Dkt Doto Mashaka Biteko (MP), The Deputy Prime Minister and The Minister for Energy </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="bg-hr" />
+          <div class="row">
+            <div class="col-lg-3 text-uppercase">
+              <h5 class="font-weight-normal ls mb-0">day 6 august 06</h5>
+              <!-- <p class="font-weight-bold"></p> -->
+            </div>
+            <div class="col-lg-8">
+              <div class="media">
+                <div class="time-width">EVENT </div>
+                <div class="dash mx-1">-</div>
+                <div class="media-body">
+                  <p class="font-weight-bold mb-0">Investment workshop</p>
+                </div>
+              </div>
+              <div class="media">
+                <!-- <div class="time-width">23:00</div>
+                <div class="dash mx-1">-</div> -->
+                <div class="media-body">
+                  <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
+                  <p class="mb-0">i. Hon. Prof. Kitila Alixander Mkumbo (MP), The Country Minister, President Office, Planning and Investment. </p>
+                  <p class="mb-0">ii. Hon. Ashatu Kijaji (MP),  The Minister for Industries and Trade.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="bg-hr" />
+          <div class="row">
+            <div class="col-lg-3 text-uppercase">
+              <h5 class="font-weight-normal ls mb-0">day 7 august 07</h5>
+              <!-- <p class="font-weight-bold"></p> -->
+            </div>
+            <div class="col-lg-8">
+              <div class="media">
+                <div class="time-width">EVENT </div>
+                <div class="dash mx-1">-</div>
+                <div class="media-body">
+                  <p class="font-weight-bold mb-0">Visiting the exhibitions booths</p>
+                </div>
+              </div>
+              <div class="media">
+                <!-- <div class="time-width">23:00</div>
+                <div class="dash mx-1">-</div> -->
+                <div class="media-body">
+                  <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
+                  <p class="mb-0">i.	Hon. Selemani Said Jafo (MP), The Country Minister, Vice President Office, (Union and Enviroment)</p>
+                  <p class="mb-0">ii.	Hon. Shamat Shaame Khamis (MP) The Minister for Agriculture, Irrigation Natural Resourses and Livestock - Zanzibar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="bg-hr" />
+          <div class="row">
+            <div class="col-lg-3 text-uppercase">
+              <h5 class="font-weight-normal ls mb-0">day 8 august 08</h5>
+              <!-- <p class="font-weight-bold"></p> -->
+            </div>
+            <div class="col-lg-8">
+              <div class="media">
+                <div class="time-width">EVENT </div>
+                <div class="dash mx-1">-</div>
+                <div class="media-body">
+                  <p class="font-weight-bold mb-0">The Exhibition Summit and Nanenane Festival</p>
+                </div>
+              </div>
+              <div class="media">
+                <!-- <div class="time-width">23:00</div>
+                <div class="dash mx-1">-</div> -->
+                <div class="media-body">
+                  <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
+                  <p class="mb-0">Hon. Dkt. Samia Suluhu Hassan, The President of The United Republic of Tanzania</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="bg-hr" />
+          <div class="row mt-4">
+            <div class="col-lg-3 text-uppercase">
+              <p class="font-weight-bold">NB:  All Guest Hosting</p>
+            </div>
+            <div class="col-lg-8">
+              <div class="media">
+                <div class="media-body">
+                  <p class="font-weight-bold mb-0">Hon. Hussein Bashe (MP), The Minister for Agriculture <br>
+                      Hon. Abdallah Hamis Ulega (MP), The Minister for Livestock and Fisheries
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+
 
 
       <!-- <section> begin ============================-->
@@ -927,8 +1026,8 @@
         <div class="container">
           <div class="row text-white justify-content-center">
             <div class="col-xl-7 col-lg-9 text-center">
-              <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="participants"></h3>
-              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/88 Participant Information Note 2024 REVISED VERSION 24062024.pdf" target="_blank" id="register6"></a>
+              <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="mockup"></h3>
+              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="Mockup_Design_Nane_Nane_Exhibition.pdf" target="_blank" id="register7"></a>
             </div>
           </div>
         </div>
@@ -990,21 +1089,28 @@
                 </div>
                 <div class="row py-5 justify-content-center">
                   <div class="col-auto">
-                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">150,000,000/=</span></h6>
+                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">200,000,000/=</span></h6>
                   </div>
                 </div>
                 <hr class="border-wb-20 mt-0" />
                 <div class="row justify-content-center">
                   <div class="col-auto">
                     <ul class="fa-ul fs--1 text-white pl-3">
-                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Full length interviews, documentary and product content creation 4k.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>In setting streets brand flag tears, 672 square feet banner at sponsors strategic place.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Appear in main banner as a main sponsor.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers merchandise branded sponsor Logo.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 50 official t-shirt.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>50 Exhibitors badge, 10 Small car stickers and 5 truck stickers with special parking lot.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top three guest of honour.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining guest of honour potential guest list and personal introduction, short speech and CEO and Manager’s round table.</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 300 sqm to showcase your products and equipment</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Main stage branding and on ground activations</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Venue branded sponsors preferences</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Limit competitive brand presence on the field</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Creative 14 days sponsor's product campaign strategy</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Full length interviews, documentary and product content creation</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>In setting streets brand flag tears, 672 square feet banner at sponsors strategic place</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in main banner as Main Sponsor</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor logo. </li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 50 official t-shirt</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>50 Exhibitors badge, 10 small car stickers and 5 truck stickers with special parcking lot </li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top guests of honour</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining guest of honour potential guest guest list and personal introduction, short speech and CEO and Manager's round table</li>
+                      
                     </ul>
                   </div>
                 </div>
@@ -1018,21 +1124,26 @@
                 </div>
                 <div class="row py-5 justify-content-center">
                   <div class="col-auto">
-                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">100,000,000/=</span></h6>
+                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">150,000,000/=</span></h6>
                   </div>
                 </div>
                 <hr class="border-wb-20 mt-0" />
                 <div class="row justify-content-center">
                   <div class="col-auto">
                     <ul class="fa-ul fs--1 text-white pl-3">
-                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Short interviews and product content creation.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>In setting streets brand flag tears only.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Appear in main banner as a regular sponsor.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised at event venue regional radios and roadshow.</li>
-                      <li class="text-muted"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 30 official t-shirt.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>30 Exhibitors badge, 5 Small car stickers and 2 truck stickers with special parking lot.</li>
-                      <li class="text-muted"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top three guest of honour.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining guest of honour potential guest list and CEO and Manager’s round table.</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 200 sqm to showcase your products and equipment</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Branding of VIPs Tents</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised at event venue regional radios and road show</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Creative 14 days sponsor's product campaign strategy</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Short interviews and product content creation</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>In setting streets brand flag tears only</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in Main banner as a regular sponsor</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor Logo</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 30 official Tshirt</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>30 Exhibitors badge, 5 small car stickers and 2 truck sticker with special parking lot</li>
+                      <li class="text-muted"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top three guests of honour</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining guest of honour potential guest list and CEO and Manager's round table</li>
                     </ul>
                   </div>
                 </div>
@@ -1047,21 +1158,26 @@
                 </div>
                 <div class="row py-5 justify-content-center">
                   <div class="col-auto">
-                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">50,000,000/=</span></h6>
+                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">100,000,000/=</span></h6>
                   </div>
                 </div>
                 <hr class="bg-white mt-0" />
                 <div class="row justify-content-center">
                   <div class="col-auto">
                     <ul class="fa-ul fs--1 text-white pl-3">
-                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Advertised at event venue only.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 150 sqm only.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Short interviews and unlimited pictures.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Roll-up banner, flag tears on the tent Only.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Appear in main banner as ordinary sponsor.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 20 official t-shirt.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>20 Exhibitors badge, 3 Small car stickers and 1 truck sticker with special parking lot.</li>
-                      <li class="text-muted"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top three guest of honour.</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 150 sqm to showcase your products and equipment</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Branding of Public/audience Tents</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as Main Sponsor</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised at event venue regional radios and road show</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Short interviews and unlimited pictures</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Roll-up banner, flag tears on the tent only </li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in Main banner as a ordinary sponsor</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor Logo</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 20 official Tshirt</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>20 Exhibitors badge, 3 small car stickers and 1 truck sticker with special parking lot</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top three guests of honour</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining CEO and Manager's round table</li>
                     </ul>
                   </div>
                 </div>
@@ -1075,19 +1191,26 @@
                 </div>
                 <div class="row py-5 justify-content-center">
                   <div class="col-auto">
-                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">30,000,000/=</span></h6>
+                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">80,000,000/=</span></h6>
                   </div>
                 </div>
                 <hr class="border-wb-20 mt-0" />
                 <div class="row justify-content-center">
                   <div class="col-auto">
                     <ul class="fa-ul fs--1 text-white pl-3">
-                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Exhibition area 0f 120 sqm only.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Roll-up banner, flag tears on the tent Only.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Appear in main banner as others sponsor.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 15 official t-shirt.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>15 Exhibitors badge and 2 Small car stickers.</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Considered to be visited by official visitors of the day.</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as sponsor of a specific Forum</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 100 sqm to showcase your products and equipment's</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Branding of a specific Forum Venue</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor of a specific Forum</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised at specific Forum Venue, Regional Radions and road shows</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Show interviews and unlimited pictures during forums</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Role-up banner, flag tears on the Forum venue Only</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in Main banner as a main sponsor of sponsor of specific Forum</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor Logo</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 15 official Tshirt</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>15 Exhibitors badge, 3 small car stickers and 1 truck sticker with special parking lot</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by guests of honour of a specified Forum</li>
+                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining CEO and Manager's round table</li>
                     </ul>
                   </div>
                 </div>
@@ -1195,7 +1318,7 @@
             <p class="mb-0 text-400">Nane Nane International Trade Fair <span class="d-none d-sm-inline-block">| </span><br class="d-sm-none" /> 2024 &copy; <a class="text-info" href="#">Ministry of Agriculture</a></p>
           </div>
           <div class="col-md-5 col-sm-auto text-right d-none d-sm-block ml-6 ml-md-0">
-            <p class="mb-0 text-400">Powered<span class="fas fa-heart mx-1"> </span>by <a class="text-info" href="#">Smartclic Technologies</a></p>
+            <p class="mb-0 text-400">Powered<span class="fas fa-heart mx-1"> </span>by <a class="text-info" href="smartclic.co.tz">Smartclic Technologies</a></p>
           </div>
         </div>
       </div>

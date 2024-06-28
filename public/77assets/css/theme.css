@@ -15359,15 +15359,15 @@ button.bg-linkedin:focus {
 |   Special background overlay for conference
 -----------------------------------------------*/
 .bg-holder.bg-overlay-primary:before {
-  background-color: rgba(47, 23, 86, 0.82);
+  background-color: rgba(29, 86, 23, 0.82);
 }
 
 .bg-overlay-primary {
-  background-color: rgba(47, 23, 86, 0.82);
+  background-color: rgba(29, 86, 23, 0.82);
 }
 
 .bg-holder.bg-overlay-primary-dark:before {
-  background-color: rgba(30, 19, 74, 0.97);
+  background-color: rgba(33, 74, 19, 0.97);
 }
 
 .bg-holder.overlay-white:before {
