@@ -66,8 +66,8 @@
         document.getElementById("register8").innerHTML = "Register now!";
         // document.getElementById("topAttend").innerHTML = "Would you like to attend the exhibition";
         // document.getElementById("topGetready").innerHTML = "Getting ready";
-        document.getElementById("aboutUs").innerHTML = "About Nane Nane Exhibition Registration 2024";
-        document.getElementById("aboutUsHeader").innerHTML = "Welcome to International Agricultural Exhibition 2024";
+        document.getElementById("aboutUs").innerHTML = "Welcome to International Agricultural Exhibition 2024";
+        // document.getElementById("aboutUsHeader").innerHTML = "Welcome to International Agricultural Exhibition 2024";
         document.getElementById("aboutUsContent").innerHTML = "Farmer’s Day dates back to the early 1980s when the Tanzanian Government initiated the celebration to recognize and appreciate the contributions of farmers to the national economy. The Nanenane exhibition is an annual event held in Tanzania to commemorate the founding of Farmers' Day, celebrating achievements in agriculture, livestock, and fisheries sectors. It takes place from August 1st to 8th each year and features displays and demonstrations from various sectors related to Agriculture, Livestock and Fisheries, including innovations, technologies, and practices aimed at improving productivity and sustainability.";
         document.getElementById("aboutUsContent2").innerHTML = "In 2024, Tanzania will mark the 31st Nanenane exhibition focusing on enhancing international visibility, promoting economic growth, and fostering global partnerships. The International Agricultural Exhibition will be hosted at the Nzuguni Nanenane Ground in Dodoma, the capital city of Tanzania. This prestigious event is anticipated to attract over 500 exhibitors from different countries.";
         
@@ -77,7 +77,7 @@
         
         document.getElementById("exhibitorsHead").innerHTML = "Exhibitors";
         // document.getElementById("exhibitButton").innerHTML = "apply to exhibit Now!";
-        document.getElementById("speakerHead").innerHTML = "Our Speakers";
+        document.getElementById("speakerHead").innerHTML = "Guests of Honour";
         // document.getElementById("speakerButton").innerHTML = "apply to speak Now!";
         document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
         document.getElementById("primeMinister").innerHTML = "Prime Minister";
@@ -135,15 +135,15 @@
           document.getElementById("register8").innerHTML = "Register now!";
           // document.getElementById("topAttend").innerHTML = "Would you like to attend the exhibition";
           // document.getElementById("topGetready").innerHTML = "Getting ready";
-          document.getElementById("aboutUs").innerHTML = "About Nane Nane Exhibition Registration 2024";
-          document.getElementById("aboutUsHeader").innerHTML = "Welcome to International Agricultural Exhibition 2024";
+          document.getElementById("aboutUs").innerHTML = "Welcome to International Agricultural Exhibition 2024";
+          // document.getElementById("aboutUsHeader").innerHTML = "Welcome to International Agricultural Exhibition 2024";
           document.getElementById("aboutUsContent").innerHTML = "Farmer’s Day dates back to the early 1980s when the Tanzanian Government initiated the celebration to recognize and appreciate the contributions of farmers to the national economy. The Nanenane exhibition is an annual event held in Tanzania to commemorate the founding of Farmers' Day, celebrating achievements in agriculture, livestock, and fisheries sectors. It takes place from August 1st to 8th each year and features displays and demonstrations from various sectors related to Agriculture, Livestock and Fisheries, including innovations, technologies, and practices aimed at improving productivity and sustainability.";
           document.getElementById("aboutUsContent2").innerHTML = "In 2024, Tanzania will mark the 31st Nanenane exhibition focusing on enhancing international visibility, promoting economic growth, and fostering global partnerships. The International Agricultural Exhibition will be hosted at the Nzuguni Nanenane Ground in Dodoma, the capital city of Tanzania. This prestigious event is anticipated to attract over 500 exhibitors from different countries.";
           // document.getElementById("experienceHead").innerHTML = "Experience";
           // document.getElementById("experienceContent").innerHTML = "This week-long engagement serves as a vibrant platform where agriculture, livestock keepers, and agricultural stakeholders converge to showcase their products, cutting-edge technologies, innovative ideas, groundbreaking discoveries, and alternative solutions. The exhibition fosters knowledge exchange, innovation, and best practices, driving the advancement and sustainability of Tanzania's agricultural industry.";
           document.getElementById("exhibitorsHead").innerHTML = "Exhibitors";
           // document.getElementById("exhibitButton").innerHTML = "apply to exhibit Now!";
-          document.getElementById("speakerHead").innerHTML = "Our Speakers";
+          document.getElementById("speakerHead").innerHTML = "Guests of Honour";
           // document.getElementById("speakerButton").innerHTML = "apply to speak Now!";
           document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
           document.getElementById("primeMinister").innerHTML = "Prime Minister";
@@ -194,15 +194,15 @@
           document.getElementById("register8").innerHTML = "Jisajiri sasa!";
           // document.getElementById("topAttend").innerHTML = "Je, ungependa kuhudhuria maonyesho";
           // document.getElementById("topGetready").innerHTML = "Kujitayarisha";
-          document.getElementById("aboutUs").innerHTML = "Kuhusu Usajili wa Maonyesho ya Nane nane 2024";
-          document.getElementById("aboutUsHeader").innerHTML = "Karibu kwenye Maonyesho ya Kimataifa ya Kilimo 2024";
+          document.getElementById("aboutUs").innerHTML = "Karibu kwenye Maonyesho ya Kimataifa ya Kilimo 2024";
+          // document.getElementById("aboutUsHeader").innerHTML = "Karibu kwenye Maonyesho ya Kimataifa ya Kilimo 2024";
           document.getElementById("aboutUsContent").innerHTML = "Siku ya Mkulima ilianza mwanzoni mwa miaka ya 1980 ambapo Serikali ya Tanzania ilianzisha maadhimisho hayo ili kutambua na kuthamini michango ya wakulima katika uchumi wa taifa. Maonesho ya Nanenane ni hafla ya kila mwaka inayofanyika nchini Tanzania kuadhimisha siku ya Wakulima, kuadhimisha mafanikio katika sekta za kilimo, mifugo na uvuvi. Hufanyika kuanzia Agosti 1 hadi 8 kila mwaka na huangazia maonyesho na maonyesho kutoka sekta mbalimbali zinazohusiana na Kilimo, Mifugo na Uvuvi, ikiwa ni pamoja na ubunifu, teknolojia, na mazoea yanayolenga kuboresha tija na uendelevu.";
           document.getElementById("aboutUsContent2").innerHTML = "Katika mwaka wa 2024, Tanzania itaadhimisha maonyesho ya 31 ya Nanenane yakilenga kuongeza mwonekano wa kimataifa, kukuza ukuaji wa uchumi, na kukuza ushirikiano wa kimataifa. Maonyesho ya Kimataifa ya Kilimo yataandaliwa katika Uwanja wa Nzuguni Nanenane mjini Dodoma, mji mkuu wa Tanzania. Tukio hili la kifahari linatarajiwa kuvutia waonyeshaji zaidi ya 500 kutoka nchi tofauti.";
           // document.getElementById("experienceHead").innerHTML = "Uzoefu";
           // document.getElementById("experienceContent").innerHTML = "Ushirikiano huu wa wiki nzima unatumika kama jukwaa mahiri ambapo kilimo, wafugaji, na wadau wa kilimo hukutana ili kuonyesha bidhaa zao, teknolojia ya kisasa, mawazo ya kibunifu, uvumbuzi wa msingi na masuluhisho mbadala. Maonyesho hayo yanakuza ubadilishanaji wa maarifa, uvumbuzi, na mbinu bora, zinazochochea maendeleo na uendelevu wa sekta ya kilimo nchini Tanzania.";
           document.getElementById("exhibitorsHead").innerHTML = "Waonyeshaji";
           // document.getElementById("exhibitButton").innerHTML = "tuma ombi la kuonyesha Sasa!";
-          document.getElementById("speakerHead").innerHTML = "Wasemaji wetu";
+          document.getElementById("speakerHead").innerHTML = "Wageni wa Heshima";
           // document.getElementById("speakerButton").innerHTML = "omba kuongea Sasa!";
           document.getElementById("ministerAgriculture").innerHTML = "Waziri - Wizara ya Kilimo";
           document.getElementById("primeMinister").innerHTML = "Waziri Mkuu";
@@ -439,9 +439,9 @@
             <div class="col-md-12 d-flex flex-column justify-content-between pr-md-5">
               <div>
                 <h4 class="mb-4" id="aboutUs"></h4>
-                <span style="font-weight: bolder; font-size:larger; padding-bottom:10px" id="aboutUsHeader"></span>
-                <p id="aboutUsContent"></p>
-                <p id="aboutUsContent2"></p>
+                <!-- <span style="font-weight: bolder; font-size:larger; padding-bottom:10px" id="aboutUsHeader"></span> -->
+                <p id="aboutUsContent" style="text-align:justify"></p>
+                <p id="aboutUsContent2" style="text-align:justify"></p>
               </div>
             </div>
             <!-- <div class="col-md-6 d-flex flex-column justify-content-between mt-5 mt-md-0 pl-md-5">
@@ -828,7 +828,7 @@
                 <div class="media-body">
                   <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
                   <p class="mb-0">i. Hon. Prof. Kitila Alixander Mkumbo (MP), The Country Minister, President Office, Planning and Investment. </p>
-                  <p class="mb-0">ii. Hon. Ashatu Kijaji (MP),  The Minister for Industries and Trade.</p>
+                  <p class="mb-0">ii.	Hon. Selemani Said Jafo (MP), The Country Minister, Vice President Office, (Union and Enviroment)</p>
                 </div>
               </div>
             </div>
@@ -852,7 +852,7 @@
                 <div class="dash mx-1">-</div> -->
                 <div class="media-body">
                   <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
-                  <p class="mb-0">i.	Hon. Selemani Said Jafo (MP), The Country Minister, Vice President Office, (Union and Enviroment)</p>
+                  <p class="mb-0">i. Hon. Ashatu Kijaji (MP),  The Minister for Industries and Trade.</p>
                   <p class="mb-0">ii.	Hon. Shamat Shaame Khamis (MP) The Minister for Agriculture, Irrigation Natural Resourses and Livestock - Zanzibar</p>
                 </div>
               </div>
