@@ -15367,7 +15367,7 @@ button.bg-linkedin:focus {
 }
 
 .bg-holder.bg-overlay-primary-dark:before {
-  background-color: rgba(33, 74, 19, 0.97);
+  background-color: green;
 }
 
 .bg-holder.overlay-white:before {
@@ -15376,6 +15376,10 @@ button.bg-linkedin:focus {
 
 .bg-overlay-0 {
   background-color: rgba(27, 26, 26, 0.24);
+}
+
+.fa-li-text {
+  font-size:small;
 }
 
 /*---------------------------------------------------------------

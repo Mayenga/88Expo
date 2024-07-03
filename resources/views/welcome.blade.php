@@ -52,6 +52,8 @@
       $(document).ready(function(){
         document.getElementById("kaulimbiu").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
         document.getElementById("heading").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
+        document.getElementById("kaulimbiu3").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
+        document.getElementById("heading3").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
         document.getElementById("kaulimbiu2").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
         document.getElementById("heading2").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
         // document.getElementById("register").innerHTML = "Register now!";
@@ -61,15 +63,17 @@
         document.getElementById("register5").innerHTML = "Download now!";
         document.getElementById("register6").innerHTML = "Download now!";
         document.getElementById("register7").innerHTML = "Download now!";
+        document.getElementById("register8").innerHTML = "Register now!";
         // document.getElementById("topAttend").innerHTML = "Would you like to attend the exhibition";
         // document.getElementById("topGetready").innerHTML = "Getting ready";
-        document.getElementById("aboutUs").innerHTML = "About us";
+        document.getElementById("aboutUs").innerHTML = "About Nane Nane Exhibition Registration 2024";
+        document.getElementById("aboutUsHeader").innerHTML = "Welcome to International Agricultural Exhibition 2024";
+        document.getElementById("aboutUsContent").innerHTML = "Farmer’s Day dates back to the early 1980s when the Tanzanian Government initiated the celebration to recognize and appreciate the contributions of farmers to the national economy. The Nanenane exhibition is an annual event held in Tanzania to commemorate the founding of Farmers' Day, celebrating achievements in agriculture, livestock, and fisheries sectors. It takes place from August 1st to 8th each year and features displays and demonstrations from various sectors related to Agriculture, Livestock and Fisheries, including innovations, technologies, and practices aimed at improving productivity and sustainability.";
+        document.getElementById("aboutUsContent2").innerHTML = "In 2024, Tanzania will mark the 31st Nanenane exhibition focusing on enhancing international visibility, promoting economic growth, and fostering global partnerships. The International Agricultural Exhibition will be hosted at the Nzuguni Nanenane Ground in Dodoma, the capital city of Tanzania. This prestigious event is anticipated to attract over 500 exhibitors from different countries.";
         
-        document.getElementById("aboutUsContent").innerHTML = "Nane Nane Day Agricultural Exhibition is an annual event that Takes place from 1st to 8th August, dedicated to celebrating and recognizing the significant contribution of Agriculture, Livestock, and Fishery to the Tanzanian economy. This year, in line with the directives of H.E. President Samia Suluhu Hassan, the exhibition aims to target international visibility, fostering economic growth and global partnerships.";
+        // document.getElementById("experienceHead").innerHTML = "Experience";
         
-        document.getElementById("experienceHead").innerHTML = "Experience";
-        
-        document.getElementById("experienceContent").innerHTML = "This week-long engagement serves as a vibrant platform where agriculture, livestock keepers, and agricultural stakeholders converge to showcase their products, cutting-edge technologies, innovative ideas, groundbreaking discoveries, and alternative solutions. The exhibition fosters knowledge exchange, innovation, and best practices, driving the advancement and sustainability of Tanzania's agricultural industry.";
+        // document.getElementById("experienceContent").innerHTML = "This week-long engagement serves as a vibrant platform where agriculture, livestock keepers, and agricultural stakeholders converge to showcase their products, cutting-edge technologies, innovative ideas, groundbreaking discoveries, and alternative solutions. The exhibition fosters knowledge exchange, innovation, and best practices, driving the advancement and sustainability of Tanzania's agricultural industry.";
         
         document.getElementById("exhibitorsHead").innerHTML = "Exhibitors";
         // document.getElementById("exhibitButton").innerHTML = "apply to exhibit Now!";
@@ -90,14 +94,14 @@
         document.getElementById("scheduleHead").innerHTML = "Event Schedule";
         
         // document.getElementById("tbc").innerHTML = "To be confirmed";
-        document.getElementById("tbc2").innerHTML = "To be confirmed";
+        // document.getElementById("tbc2").innerHTML = "To be confirmed";
         document.getElementById("subscribeHead").innerHTML = "Subscribe";
         document.getElementById("subscribeHead2").innerHTML = "Subscribe";
         document.getElementById("subscribeUpdates").innerHTML = "Now to get updates!";
         
-        document.getElementById("pastEventsHead").innerHTML = "Past Events";
+        // document.getElementById("pastEventsHead").innerHTML = "Past Events";
         // document.getElementById("newsHead").innerHTML = "LATEST NEWS AND BLOG";
-        document.getElementById("sponsorHead").innerHTML = "Event Sponsors";
+        // document.getElementById("sponsorHead").innerHTML = "Event Sponsors";
         document.getElementById("pricingHead").innerHTML = "Exhibition Sponsorship Packages";
         document.getElementById("mainsp").innerHTML = "Main Sponsor (TANZANITE CATEGORY)";
         
@@ -117,6 +121,8 @@
         $("#en").click(function(){
           document.getElementById("kaulimbiu").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
           document.getElementById("heading").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
+          document.getElementById("kaulimbiu3").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
+          document.getElementById("heading3").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
           document.getElementById("kaulimbiu2").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
           document.getElementById("heading2").innerHTML = "The Nane Nane International <br> Trade Fair, 2024";
           // document.getElementById("register").innerHTML = "Register now!";
@@ -126,12 +132,15 @@
           document.getElementById("register5").innerHTML = "Download now!";
           document.getElementById("register6").innerHTML = "Download now!";
           document.getElementById("register7").innerHTML = "Download now!";
+          document.getElementById("register8").innerHTML = "Register now!";
           // document.getElementById("topAttend").innerHTML = "Would you like to attend the exhibition";
           // document.getElementById("topGetready").innerHTML = "Getting ready";
-          document.getElementById("aboutUs").innerHTML = "About us";
-          document.getElementById("aboutUsContent").innerHTML = "The Nane Nane Day Agricultural Exhibition is an annual event that Takes place from 1st to 8th August, dedicated to celebrating and recognizing the significant contribution of Agriculture, Livestock, and Fishery to the Tanzanian economy. This year, in line with the directives of H.E. President Samia Suluhu Hassan, the exhibition aims to target international visibility, fostering economic growth and global partnerships.";
-          document.getElementById("experienceHead").innerHTML = "Experience";
-          document.getElementById("experienceContent").innerHTML = "This week-long engagement serves as a vibrant platform where agriculture, livestock keepers, and agricultural stakeholders converge to showcase their products, cutting-edge technologies, innovative ideas, groundbreaking discoveries, and alternative solutions. The exhibition fosters knowledge exchange, innovation, and best practices, driving the advancement and sustainability of Tanzania's agricultural industry.";
+          document.getElementById("aboutUs").innerHTML = "About Nane Nane Exhibition Registration 2024";
+          document.getElementById("aboutUsHeader").innerHTML = "Welcome to International Agricultural Exhibition 2024";
+          document.getElementById("aboutUsContent").innerHTML = "Farmer’s Day dates back to the early 1980s when the Tanzanian Government initiated the celebration to recognize and appreciate the contributions of farmers to the national economy. The Nanenane exhibition is an annual event held in Tanzania to commemorate the founding of Farmers' Day, celebrating achievements in agriculture, livestock, and fisheries sectors. It takes place from August 1st to 8th each year and features displays and demonstrations from various sectors related to Agriculture, Livestock and Fisheries, including innovations, technologies, and practices aimed at improving productivity and sustainability.";
+          document.getElementById("aboutUsContent2").innerHTML = "In 2024, Tanzania will mark the 31st Nanenane exhibition focusing on enhancing international visibility, promoting economic growth, and fostering global partnerships. The International Agricultural Exhibition will be hosted at the Nzuguni Nanenane Ground in Dodoma, the capital city of Tanzania. This prestigious event is anticipated to attract over 500 exhibitors from different countries.";
+          // document.getElementById("experienceHead").innerHTML = "Experience";
+          // document.getElementById("experienceContent").innerHTML = "This week-long engagement serves as a vibrant platform where agriculture, livestock keepers, and agricultural stakeholders converge to showcase their products, cutting-edge technologies, innovative ideas, groundbreaking discoveries, and alternative solutions. The exhibition fosters knowledge exchange, innovation, and best practices, driving the advancement and sustainability of Tanzania's agricultural industry.";
           document.getElementById("exhibitorsHead").innerHTML = "Exhibitors";
           // document.getElementById("exhibitButton").innerHTML = "apply to exhibit Now!";
           document.getElementById("speakerHead").innerHTML = "Our Speakers";
@@ -149,13 +158,13 @@
           document.getElementById("mockup").innerHTML = "THE INTERNATIONAL AGRICULTURE TRADE SHOW MOCKUP DESIGN";
           document.getElementById("scheduleHead").innerHTML = "Event Schedule";
           // document.getElementById("tbc").innerHTML = "To be confirmed";
-          document.getElementById("tbc2").innerHTML = "To be confirmed";
+          // document.getElementById("tbc2").innerHTML = "To be confirmed";
           document.getElementById("subscribeHead").innerHTML = "Subscribe";
           document.getElementById("subscribeHead2").innerHTML = "Subscribe";
           document.getElementById("subscribeUpdates").innerHTML = "Now to get updates!";
-          document.getElementById("pastEventsHead").innerHTML = "Past Events";
+          // document.getElementById("pastEventsHead").innerHTML = "Past Events";
           // document.getElementById("newsHead").innerHTML = "LATEST NEWS AND BLOG";
-          document.getElementById("sponsorHead").innerHTML = "Event Sponsors";
+          // document.getElementById("sponsorHead").innerHTML = "Event Sponsors";
           document.getElementById("pricingHead").innerHTML = "Exhibition Sponsorship Packages";
           document.getElementById("mainsp").innerHTML = "Main Sponsor (TANZANITE CATEGORY)";
           document.getElementById("mainremain").innerHTML = "1 Remaining";
@@ -171,6 +180,8 @@
         $("#sw").click(function(){
           document.getElementById("kaulimbiu").innerHTML = "Chagua Viongozi bora wa Serikali za Mitaa kwa Maendeleo Endelevu ya Kilimo, Mifugo na Uvuvi";
           document.getElementById("heading").innerHTML = "Maonyesho ya Biashara ya Kimataifa ya Nane Nane, 2024";
+          document.getElementById("kaulimbiu3").innerHTML = "Chagua Viongozi bora wa Serikali za Mitaa kwa Maendeleo Endelevu ya Kilimo, Mifugo na Uvuvi";
+          document.getElementById("heading3").innerHTML = "Maonyesho ya Biashara ya Kimataifa ya Nane Nane, 2024";
           document.getElementById("kaulimbiu2").innerHTML = "Chagua Viongozi bora wa Serikali za Mitaa kwa Maendeleo Endelevu ya Kilimo, Mifugo na Uvuvi";
           document.getElementById("heading2").innerHTML = "Maonyesho ya Biashara ya Kimataifa ya Nane Nane, 2024";
           // document.getElementById("register").innerHTML = "Jisajiri sasa!";
@@ -180,12 +191,15 @@
           document.getElementById("register5").innerHTML = "Pakua sasa!";
           document.getElementById("register6").innerHTML = "Pakua sasa!";
           document.getElementById("register7").innerHTML = "Pakua sasa!";
+          document.getElementById("register8").innerHTML = "Jisajiri sasa!";
           // document.getElementById("topAttend").innerHTML = "Je, ungependa kuhudhuria maonyesho";
           // document.getElementById("topGetready").innerHTML = "Kujitayarisha";
-          document.getElementById("aboutUs").innerHTML = "Kuhusu sisi";
-          document.getElementById("aboutUsContent").innerHTML = "Maonyesho ya Kilimo ya Siku ya Nane Nane ni hafla ya kila mwaka ambayo hufanyika kuanzia tarehe 1 mpaka tarehe 8 Agosti, yenye lengo la kuadhimisha na kutambua mchango mkubwa wa Kilimo, Mifugo, na Uvuvi katika uchumi wa Tanzania. Mwaka huu, kulingana na maagizo ya H.E. Rais Samia Suluhu Hassan, maonyesho hayo yanalenga kulenga mwonekano wa kimataifa, kukuza ukuaji wa uchumi na ushirikiano wa kimataifa.";
-          document.getElementById("experienceHead").innerHTML = "Uzoefu";
-          document.getElementById("experienceContent").innerHTML = "Ushirikiano huu wa wiki nzima unatumika kama jukwaa mahiri ambapo kilimo, wafugaji, na wadau wa kilimo hukutana ili kuonyesha bidhaa zao, teknolojia ya kisasa, mawazo ya kibunifu, uvumbuzi wa msingi na masuluhisho mbadala. Maonyesho hayo yanakuza ubadilishanaji wa maarifa, uvumbuzi, na mbinu bora, zinazochochea maendeleo na uendelevu wa sekta ya kilimo nchini Tanzania.";
+          document.getElementById("aboutUs").innerHTML = "Kuhusu Usajili wa Maonyesho ya Nane nane 2024";
+          document.getElementById("aboutUsHeader").innerHTML = "Karibu kwenye Maonyesho ya Kimataifa ya Kilimo 2024";
+          document.getElementById("aboutUsContent").innerHTML = "Siku ya Mkulima ilianza mwanzoni mwa miaka ya 1980 ambapo Serikali ya Tanzania ilianzisha maadhimisho hayo ili kutambua na kuthamini michango ya wakulima katika uchumi wa taifa. Maonesho ya Nanenane ni hafla ya kila mwaka inayofanyika nchini Tanzania kuadhimisha siku ya Wakulima, kuadhimisha mafanikio katika sekta za kilimo, mifugo na uvuvi. Hufanyika kuanzia Agosti 1 hadi 8 kila mwaka na huangazia maonyesho na maonyesho kutoka sekta mbalimbali zinazohusiana na Kilimo, Mifugo na Uvuvi, ikiwa ni pamoja na ubunifu, teknolojia, na mazoea yanayolenga kuboresha tija na uendelevu.";
+          document.getElementById("aboutUsContent2").innerHTML = "Katika mwaka wa 2024, Tanzania itaadhimisha maonyesho ya 31 ya Nanenane yakilenga kuongeza mwonekano wa kimataifa, kukuza ukuaji wa uchumi, na kukuza ushirikiano wa kimataifa. Maonyesho ya Kimataifa ya Kilimo yataandaliwa katika Uwanja wa Nzuguni Nanenane mjini Dodoma, mji mkuu wa Tanzania. Tukio hili la kifahari linatarajiwa kuvutia waonyeshaji zaidi ya 500 kutoka nchi tofauti.";
+          // document.getElementById("experienceHead").innerHTML = "Uzoefu";
+          // document.getElementById("experienceContent").innerHTML = "Ushirikiano huu wa wiki nzima unatumika kama jukwaa mahiri ambapo kilimo, wafugaji, na wadau wa kilimo hukutana ili kuonyesha bidhaa zao, teknolojia ya kisasa, mawazo ya kibunifu, uvumbuzi wa msingi na masuluhisho mbadala. Maonyesho hayo yanakuza ubadilishanaji wa maarifa, uvumbuzi, na mbinu bora, zinazochochea maendeleo na uendelevu wa sekta ya kilimo nchini Tanzania.";
           document.getElementById("exhibitorsHead").innerHTML = "Waonyeshaji";
           // document.getElementById("exhibitButton").innerHTML = "tuma ombi la kuonyesha Sasa!";
           document.getElementById("speakerHead").innerHTML = "Wasemaji wetu";
@@ -203,13 +217,13 @@
           document.getElementById("mockup").innerHTML = "BIASHARA YA KILIMO YA KIMATAIFA YA MAONYESHO YA MCHEZO";
           document.getElementById("scheduleHead").innerHTML = "Ratiba ya Tukio";
           // document.getElementById("tbc").innerHTML = "Ili kuthibitishwa";
-          document.getElementById("tbc2").innerHTML = "Ili kuthibitishwa";
+          // document.getElementById("tbc2").innerHTML = "Ili kuthibitishwa";
           document.getElementById("subscribeHead").innerHTML = "Jisajili";
           document.getElementById("subscribeHead2").innerHTML = "Jisajili";
           document.getElementById("subscribeUpdates").innerHTML = "Sasa ili kupata sasisho!";
-          document.getElementById("pastEventsHead").innerHTML = "Matukio ya Zamani";
+          // document.getElementById("pastEventsHead").innerHTML = "Matukio ya Zamani";
           // document.getElementById("newsHead").innerHTML = "HABARI MPYA NA BLOG";
-          document.getElementById("sponsorHead").innerHTML = "Wafadhili wa hafla";
+          // document.getElementById("sponsorHead").innerHTML = "Wafadhili wa hafla";
           document.getElementById("pricingHead").innerHTML = "Vifurushi vya Ufadhili wa Maonyesho";
           document.getElementById("mainsp").innerHTML = "Mfadhili Mkuu (KATEGORIA YA TANZANITE)";
           document.getElementById("mainremain").innerHTML = "1 Iliyobaki";
@@ -268,7 +282,7 @@
           <div class="ball-scale-ripple">
             <div></div>
           </div>
-          <h5 class="fs-1 pr- text-light text-uppercase mb-0 mt-3">NANENANE EXPO 2024</h5>
+          <h5 class="fs-1 pr- text-light text-uppercase mb-0 mt-3">NANE NANE INTERNATIONAL TRADE FAIR, 2024</h5>
         </div>
       </div>
       <!-- ============================================-->
@@ -280,14 +294,16 @@
           <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse ml-2 ml-md-0" id="navbarContent">
             <ul class="navbar-nav text-uppercase font-weight-semi-bold ml-auto" id="navbar-spy">
-              <li class="nav-item"><a class="nav-link" href="/" data-fancyscroll="data-fancyscroll"><span class="nav-link-text">  Home</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="#home" data-fancyscroll="data-fancyscroll"><span class="nav-link-text">  Home</span></a></li>
               <li class="nav-item"><a class="nav-link" href="#about" data-fancyscroll="data-fancyscroll"><span class="nav-link-text">  About</span></a></li>
               <li class="nav-item"><a class="nav-link" href="#exhibitors" data-fancyscroll="data-fancyscroll"><span class="nav-link-text">  Exhibitors</span></a></li>
-              <li class="nav-item"><a class="nav-link" href="#Speakers"><span class="nav-link-text"> Speakers</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="#Speakers" data-fancyscroll="data-fancyscroll"><span class="nav-link-text"> Speakers</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="#hotelsSection" data-fancyscroll="data-fancyscroll"><span class="nav-link-text"> Hotels</span></a></li>
               <li class="nav-item"><a class="nav-link" href="#Schedule" data-fancyscroll="data-fancyscroll"><span class="nav-link-text">  Schedule</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="#price" data-fancyscroll="data-fancyscroll"><span class="nav-link-text">  Sponsorship Packages</span></a></li>
               <li class="nav-item"><a class="nav-link" href="#contact" data-fancyscroll="data-fancyscroll"> <span class="nav-link-text"> contact</span></a></li>
             </ul>
-            <ul class="navbar-nav text-uppercase font-weight-semi-bold">
+            <!-- <ul class="navbar-nav text-uppercase font-weight-semi-bold">
               <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdown2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="nav-link-text"> Events</span></a>
                 <div class="dropdown-menu dropdown-menu-right rounded-soft" aria-labelledby="navbarDropdown2">
                   <a class="dropdown-item" href="#">Nanenane Expo 2023</a>
@@ -296,7 +312,7 @@
                   <a class="dropdown-item" href="#">Nanenane Expo 2020</a>
                 </div>
               </li>
-            </ul>
+            </ul> -->
             <ul class="navbar-nav text-uppercase font-weight-semi-bold">
               <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdown2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="nav-link-text"> Language</span></a>
                 <div class="dropdown-menu dropdown-menu-right rounded-soft" aria-labelledby="navbarDropdown2">
@@ -311,6 +327,30 @@
       </nav>
       <div class="flexslider border-0 overflow-hidden rounded-0 mb-0 rounded">
         <ul class="slides">
+          <li data-zanim-timeline="{&quot;delay&quot;:0.3}">
+
+
+          <!-- <section> begin ============================-->
+          <section class="py-0 text-center text-white">
+
+            <div class="bg-holder overlay" style="background-image:url(77assets/img/background/agriculture-03.jpeg);">
+            </div>
+            <!--/.bg-holder-->
+
+            <div class="container">
+              <div class="row min-vh-100 flex-center py-6">
+                <div class="col-auto">
+                  <h3 class="text-uppercase text-white font-weight-bold ls-1" data-zanim-xs='{"animation":"slide-right","delay":0.6,"duration":0.5}' data-zanim-trigger="scroll" id="heading3"></h3>
+                  <p class="font-italic fs-2 mb-3" data-zanim-xs='{"animation":"slide-left","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" id="kaulimbiu3"></p>
+                  <p class="lead text-sans-serif ls font-weight-extra-light mt-5" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll">Dodoma, Tanzania<br />01st - 08th August, 2024</p>
+                  <a class="btn btn-danger btn-lg mt-3" href="" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" data-toggle="modal" data-target=".bd-example-modal-lg" id="register8"></a>
+                  <!-- <a style="background-color: orange;" class="btn btn-danger btn-lg mt-3" href="" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" data-toggle="modal" data-target=".bd-exhibitor-modal-lg">book a stand !</a> -->
+                  <a class="text-500 godown-arrow bounce" href="#about" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"slide-down","delay":0.9,"duration":1}' data-zanim-trigger="scroll"><span class="fas fa-chevron-down fa-lg"></span></a>
+                </div>
+              </div>
+            </div>
+          </section>
+          </li>
           <li data-zanim-timeline="{&quot;delay&quot;:0.3}">
 
 
@@ -372,24 +412,44 @@
         <button class="close mt-md-2" type="button" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
       </div> -->
 
+      <!-- <section> begin ============================-->
+      <section id="home">
+        <div class="bg-holder overlay overlay-1" style="background-image:url(77assets/img/background/submit-bg.jpg);">
+        </div>
+        <!--/.bg-holder-->
+        <div class="container">
+          <div class="row text-white justify-content-center">
+            <div class="col-xl-6 col-lg-6 text-center">
+              <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="participants" style="font-size: medium;"></h3>
+              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/88 Participant Information Note 2024 REVISED VERSION 24062024.pdf" target="_blank" id="register6"></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 text-center">
+            <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="mockup" style="font-size: medium;"></h3>
+            <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/Mockup_Design_Nane_Nane_Exhibition.pdf" target="_blank" id="register7"></a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- <section> begin ============================-->
       <section id="about">
 
         <div class="container">
           <div class="row">
-            <div class="col-md-6 d-flex flex-column justify-content-between pr-md-5">
+            <div class="col-md-12 d-flex flex-column justify-content-between pr-md-5">
               <div>
                 <h4 class="mb-4" id="aboutUs"></h4>
+                <span style="font-weight: bolder; font-size:larger; padding-bottom:10px" id="aboutUsHeader"></span>
                 <p id="aboutUsContent"></p>
+                <p id="aboutUsContent2"></p>
               </div>
             </div>
-            <div class="col-md-6 d-flex flex-column justify-content-between mt-5 mt-md-0 pl-md-5">
+            <!-- <div class="col-md-6 d-flex flex-column justify-content-between mt-5 mt-md-0 pl-md-5">
               <div>
                 <h4 class="mb-4" id="experienceHead"></h4>
                 <p id="experienceContent"></p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -507,22 +567,6 @@
       </section>
 
       <!-- <section> begin ============================-->
-      <section>
-        <div class="bg-holder overlay overlay-1" style="background-image:url(77assets/img/background/submit-bg.jpeg);">
-        </div>
-        <!--/.bg-holder-->
-
-        <div class="container">
-          <div class="row text-white justify-content-center">
-            <div class="col-xl-7 col-lg-9 text-center">
-              <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="participants"></h3>
-              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/88 Participant Information Note 2024 REVISED VERSION 24062024.pdf" target="_blank" id="register6"></a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- <section> begin ============================-->
       <section id="Speakers">
 
         <div class="container">
@@ -533,7 +577,7 @@
             </div> -->
             <div class="col-lg-12 pl-lg-6 mt-5 mt-lg-0">
               <div class="row">
-                <div class="col-sm-10 col-md-6 mt-5">
+                <div class="col-sm-10 col-md-4 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/mpango.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -542,7 +586,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-6 mt-5">
+                <div class="col-sm-10 col-md-4 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/waziriMkuu.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -571,7 +615,7 @@
                 </div>
                 <div class="col-sm-10 col-md-4 mt-5">
                   <div class="row">
-                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/gerlad.jpg') }}" alt="thumb-image" /></div>
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/gerlad.JPG') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
                       <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Gerald Geofrey Mweli</h6>
                       <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="secretaryAgriculture"></p>
@@ -613,7 +657,7 @@
 
 
       <!-- <section> begin ============================-->
-      <section>
+      <section id="hotelsSection">
 
         <div class="bg-holder overlay overlay-1" style="background-image:url(77assets/img/background/submit-bg.jpeg);">
         </div>
@@ -852,6 +896,156 @@
                 </div>
               </div>
             </div>
+            <a href="77assets/downloads/NANENANE  2024 EVENT PROGRAM.pdf"><h5 class="font-weight-normal ls mb-0">DOWNLOAD SCHEDULE HERE</h5></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section> begin ============================-->
+      <section id="price">
+
+        <div class="bg-holder overlay bg-overlay-primary-dark" style="background-image:url(77assets/img/background/bg-eventschedule.png);">
+        </div>
+        <!--/.bg-holder-->
+
+        <div class="container">
+          <h3 class="pb-6 text-white" id="pricingHead"></h3>
+          <div class="card-deck">
+            <div class="card mb-3 bg-transparent border-white-20">
+              <div class="card-body">
+                <div class="d-flex justify-content-between pb-1 border-wb-20">
+                  <h6 class="fs-0 text-white mb-0" id="mainsp"></h6><small class="mb-0 text-white-70" id="mainRemain"></small>
+                </div>
+                <div class="row py-5 justify-content-center">
+                  <div class="col-auto">
+                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">200,000,000/=</span></h6>
+                  </div>
+                </div>
+                <hr class="border-wb-20 mt-0" />
+                <div class="row justify-content-center">
+                  <div class="col-auto">
+                    <ul class="fa-ul fs--1 text-white pl-3">
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 300 sqm to showcase your products and equipment</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Main stage branding and on ground activations</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Venue branded sponsors preferences</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Limit competitive brand presence on the field</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Creative 14 days sponsor's product campaign strategy</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Full length interviews, documentary and product content creation</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>In setting streets brand flag tears, 672 square feet banner at sponsors strategic place</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in main banner as Main Sponsor</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor logo. </li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 50 official t-shirt</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>50 Exhibitors badge, 10 small car stickers and 5 truck stickers with special parcking lot </li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top guests of honour</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining guest of honour potential guest guest list and personal introduction, short speech and CEO and Manager's round table</li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card-footer border-0 bg-transparent text-center"><a class="btn btn-lg btn-outline-primary text-white" href="#">JOIN NOW !</a></div> -->
+            </div>
+            <div class="card mb-3 bg-transparent border-white-20">
+              <div class="card-body">
+                <div class="d-flex justify-content-between pb-1 border-wb-20">
+                  <h6 class="fs-0 text-white mb-0" id="regularsp"></h6><small class="mb-0 text-white-70" id="regularRemain"></small>
+                </div>
+                <div class="row py-5 justify-content-center">
+                  <div class="col-auto">
+                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">150,000,000/=</span></h6>
+                  </div>
+                </div>
+                <hr class="border-wb-20 mt-0" />
+                <div class="row justify-content-center">
+                  <div class="col-auto">
+                    <ul class="fa-ul fs--1 text-white pl-3">
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 200 sqm to showcase your products and equipment</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Branding of VIPs Tents</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised at event venue regional radios and road show</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Creative 14 days sponsor's product campaign strategy</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Short interviews and product content creation</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>In setting streets brand flag tears only</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in Main banner as a regular sponsor</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor Logo</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 30 official Tshirt</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>30 Exhibitors badge, 5 small car stickers and 2 truck sticker with special parking lot</li>
+                      <li class="fa-li-text" class="text-muted"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top three guests of honour</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining guest of honour potential guest list and CEO and Manager's round table</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card-footer border-0 bg-transparent text-center"><a class="btn btn-lg btn-outline-primary text-white" href="#">JOIN NOW !</a></div> -->
+            </div>
+            <div class="w-100 d-none d-sm-block d-lg-none"></div>
+            <div class="card mb-3 border bg-transparent">
+              <div class="card-body">
+                <div class="d-flex justify-content-between pb-1 border-bottom">
+                  <h6 class="fs-0 text-white mb-0" id="ordinarysp"></h6><small class="mb-0 text-white-70" id="ordinaryRemain"></small>
+                </div>
+                <div class="row py-5 justify-content-center">
+                  <div class="col-auto">
+                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">100,000,000/=</span></h6>
+                  </div>
+                </div>
+                <hr class="bg-white mt-0" />
+                <div class="row justify-content-center">
+                  <div class="col-auto">
+                    <ul class="fa-ul fs--1 text-white pl-3">
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 150 sqm to showcase your products and equipment</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Branding of Public/audience Tents</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as Main Sponsor</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised at event venue regional radios and road show</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Short interviews and unlimited pictures</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Roll-up banner, flag tears on the tent only </li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in Main banner as a ordinary sponsor</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor Logo</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 20 official Tshirt</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>20 Exhibitors badge, 3 small car stickers and 1 truck sticker with special parking lot</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top three guests of honour</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining CEO and Manager's round table</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card-footer border-0 bg-transparent text-center"><a class="btn btn-lg btn-primary text-white" href="#">JOIN NOW !</a></div> -->
+            </div>
+            <div class="card mb-3 border-white-20 bg-transparent">
+              <div class="card-body">
+                <div class="d-flex justify-content-between pb-1 border-wb-20">
+                  <h6 class="fs-0 text-white mb-0" id="othersp"></h6><small class="mb-0 text-white-70" id="otherremain"></small>
+                </div>
+                <div class="row py-5 justify-content-center">
+                  <div class="col-auto">
+                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">80,000,000/=</span></h6>
+                  </div>
+                </div>
+                <hr class="border-wb-20 mt-0" />
+                <div class="row justify-content-center">
+                  <div class="col-auto">
+                    <ul class="fa-ul fs--1 text-white pl-3">
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as sponsor of a specific Forum</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 100 sqm to showcase your products and equipment's</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Branding of a specific Forum Venue</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor of a specific Forum</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised at specific Forum Venue, Regional Radions and road shows</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Show interviews and unlimited pictures during forums</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Role-up banner, flag tears on the Forum venue Only</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in Main banner as a main sponsor of sponsor of specific Forum</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor Logo</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 15 official Tshirt</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>15 Exhibitors badge, 3 small car stickers and 1 truck sticker with special parking lot</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by guests of honour of a specified Forum</li>
+                      <li class="fa-li-text"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining CEO and Manager's round table</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card-footer border-0 text-center bg-transparent"><a class="btn btn-lg btn-outline-primary text-white" href="#">JOIN NOW !</a></div> -->
+            </div>
           </div>
         </div>
       </section>
@@ -888,7 +1082,7 @@
 
 
       <!-- <section> begin ============================-->
-      <section class="bg-200">
+      <!-- <section class="bg-200">
 
         <div class="container">
           <h3 class="mb-6 ml-2" id="pastEventsHead"></h3>
@@ -934,7 +1128,7 @@
               </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- home-blog section-html start  -->
       <!-- <section class="home-blog-section">
@@ -1018,11 +1212,9 @@
       </section> -->
 
       <!-- <section> begin ============================-->
-      <section>
+      <!-- <section>
         <div class="bg-holder overlay overlay-1" style="background-image:url(77assets/img/background/submit-bg.jpeg);">
         </div>
-        <!--/.bg-holder-->
-
         <div class="container">
           <div class="row text-white justify-content-center">
             <div class="col-xl-7 col-lg-9 text-center">
@@ -1031,19 +1223,19 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- <section> begin ============================-->
-      <section class="bg-200">
+      <!-- <section class="bg-200"> -->
 
-        <div class="container">
-          <h3 class="mb-6" id="sponsorHead"></h3>
+        <!-- <div class="container"> -->
+          <!-- <h3 class="mb-6" id="sponsorHead"></h3>
           <div class="row" data-zanim-timeline="{}" data-zanim-trigger="scroll">
             <div class="col-xl-12 col-lg-12 col-md-12 col-12">
               <div class="d-flex justify-content-center align-items-center border border-2x rounded-soft mb-4" style="height:150px;">
               <span id="tbc2"></span>
               </div>
-            </div>
+            </div> -->
             <!-- <div class="col-xl-2 col-lg-3 col-md-3 col-6">
               <div class="d-flex justify-content-center align-items-center border border-2x rounded-soft mb-4" style="height:150px;"><img src="{{ asset('77assets/img/logos/acb.png') }}" alt="" width="100" data-zanim-xs='{"animation":"slide-right","delay":0.1}' /></div>
             </div>
@@ -1068,159 +1260,9 @@
             <div class="col-xl-2 col-lg-3 col-md-3 col-6">
               <div class="d-flex justify-content-center align-items-center border border-2x rounded-soft mb-4" style="height:150px;"><img src="{{ asset('77assets/img/logos/standard.png') }}" alt="" width="120" data-zanim-xs='{"animation":"slide-right","delay":0.8}' /></div>
             </div> -->
-          </div>
+          <!-- </div>
         </div>
-      </section>
-
-      <!-- <section> begin ============================-->
-      <section id="price">
-
-        <div class="bg-holder overlay bg-overlay-primary-dark" style="background-image:url(77assets/img/background/bg-pricing.jpg);">
-        </div>
-        <!--/.bg-holder-->
-
-        <div class="container">
-          <h3 class="pb-6 text-white" id="pricingHead"></h3>
-          <div class="card-deck">
-            <div class="card mb-3 bg-transparent border-white-20">
-              <div class="card-body">
-                <div class="d-flex justify-content-between pb-1 border-wb-20">
-                  <h6 class="fs-0 text-white mb-0" id="mainsp"></h6><small class="mb-0 text-white-70" id="mainRemain"></small>
-                </div>
-                <div class="row py-5 justify-content-center">
-                  <div class="col-auto">
-                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">200,000,000/=</span></h6>
-                  </div>
-                </div>
-                <hr class="border-wb-20 mt-0" />
-                <div class="row justify-content-center">
-                  <div class="col-auto">
-                    <ul class="fa-ul fs--1 text-white pl-3">
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 300 sqm to showcase your products and equipment</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Main stage branding and on ground activations</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Venue branded sponsors preferences</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Limit competitive brand presence on the field</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Creative 14 days sponsor's product campaign strategy</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Full length interviews, documentary and product content creation</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>In setting streets brand flag tears, 672 square feet banner at sponsors strategic place</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in main banner as Main Sponsor</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor logo. </li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 50 official t-shirt</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>50 Exhibitors badge, 10 small car stickers and 5 truck stickers with special parcking lot </li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top guests of honour</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining guest of honour potential guest guest list and personal introduction, short speech and CEO and Manager's round table</li>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer border-0 bg-transparent text-center"><a class="btn btn-lg btn-outline-primary text-white" href="#">JOIN NOW !</a></div>
-            </div>
-            <div class="card mb-3 bg-transparent border-white-20">
-              <div class="card-body">
-                <div class="d-flex justify-content-between pb-1 border-wb-20">
-                  <h6 class="fs-0 text-white mb-0" id="regularsp"></h6><small class="mb-0 text-white-70" id="regularRemain"></small>
-                </div>
-                <div class="row py-5 justify-content-center">
-                  <div class="col-auto">
-                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">150,000,000/=</span></h6>
-                  </div>
-                </div>
-                <hr class="border-wb-20 mt-0" />
-                <div class="row justify-content-center">
-                  <div class="col-auto">
-                    <ul class="fa-ul fs--1 text-white pl-3">
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 200 sqm to showcase your products and equipment</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Branding of VIPs Tents</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised at event venue regional radios and road show</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Creative 14 days sponsor's product campaign strategy</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Short interviews and product content creation</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>In setting streets brand flag tears only</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in Main banner as a regular sponsor</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor Logo</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 30 official Tshirt</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>30 Exhibitors badge, 5 small car stickers and 2 truck sticker with special parking lot</li>
-                      <li class="text-muted"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top three guests of honour</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining guest of honour potential guest list and CEO and Manager's round table</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer border-0 bg-transparent text-center"><a class="btn btn-lg btn-outline-primary text-white" href="#">JOIN NOW !</a></div>
-            </div>
-            <div class="w-100 d-none d-sm-block d-lg-none"></div>
-            <div class="card mb-3 border bg-transparent">
-              <div class="card-body">
-                <div class="d-flex justify-content-between pb-1 border-bottom">
-                  <h6 class="fs-0 text-white mb-0" id="ordinarysp"></h6><small class="mb-0 text-white-70" id="ordinaryRemain"></small>
-                </div>
-                <div class="row py-5 justify-content-center">
-                  <div class="col-auto">
-                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">100,000,000/=</span></h6>
-                  </div>
-                </div>
-                <hr class="bg-white mt-0" />
-                <div class="row justify-content-center">
-                  <div class="col-auto">
-                    <ul class="fa-ul fs--1 text-white pl-3">
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 150 sqm to showcase your products and equipment</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Branding of Public/audience Tents</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as Main Sponsor</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised at event venue regional radios and road show</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Short interviews and unlimited pictures</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Roll-up banner, flag tears on the tent only </li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in Main banner as a ordinary sponsor</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor Logo</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 20 official Tshirt</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>20 Exhibitors badge, 3 small car stickers and 1 truck sticker with special parking lot</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by the top three guests of honour</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining CEO and Manager's round table</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer border-0 bg-transparent text-center"><a class="btn btn-lg btn-primary text-white" href="#">JOIN NOW !</a></div>
-            </div>
-            <div class="card mb-3 border-white-20 bg-transparent">
-              <div class="card-body">
-                <div class="d-flex justify-content-between pb-1 border-wb-20">
-                  <h6 class="fs-0 text-white mb-0" id="othersp"></h6><small class="mb-0 text-white-70" id="otherremain"></small>
-                </div>
-                <div class="row py-5 justify-content-center">
-                  <div class="col-auto">
-                    <h6 class="d-flex fs-4 mb-0 text-white"><span class="fs-0 doller">TSH</span><span style="font-size: 30px;">80,000,000/=</span></h6>
-                  </div>
-                </div>
-                <hr class="border-wb-20 mt-0" />
-                <div class="row justify-content-center">
-                  <div class="col-auto">
-                    <ul class="fa-ul fs--1 text-white pl-3">
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as sponsor of a specific Forum</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Exhibition area of 100 sqm to showcase your products and equipment's</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Branding of a specific Forum Venue</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised and identified to all media as the main sponsor of a specific Forum</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Advertised at specific Forum Venue, Regional Radions and road shows</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Show interviews and unlimited pictures during forums</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Role-up banner, flag tears on the Forum venue Only</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right text-center"></i></span>Appear in Main banner as a main sponsor of sponsor of specific Forum</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>T-Shirt, badge, tickets and stickers mechandise branded sponsor Logo</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Provision of 15 official Tshirt</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>15 Exhibitors badge, 3 small car stickers and 1 truck sticker with special parking lot</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Visited by guests of honour of a specified Forum</li>
-                      <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Joining CEO and Manager's round table</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer border-0 text-center bg-transparent"><a class="btn btn-lg btn-outline-primary text-white" href="#">JOIN NOW !</a></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      </section> -->
 
       <!-- <section> begin ============================-->
       <section id="contact">
@@ -1318,7 +1360,7 @@
             <p class="mb-0 text-400">Nane Nane International Trade Fair <span class="d-none d-sm-inline-block">| </span><br class="d-sm-none" /> 2024 &copy; <a class="text-info" href="#">Ministry of Agriculture</a></p>
           </div>
           <div class="col-md-5 col-sm-auto text-right d-none d-sm-block ml-6 ml-md-0">
-            <p class="mb-0 text-400">Powered<span class="fas fa-heart mx-1"> </span>by <a class="text-info" href="smartclic.co.tz">Smartclic Technologies</a></p>
+            <p class="mb-0 text-400">Powered<span class="fas fa-heart mx-1"> </span>by <a class="text-info" href="https://smartclic.co.tz">Smartclic Technologies</a></p>
           </div>
         </div>
       </div>
@@ -1723,7 +1765,7 @@
                 <div class="col-lg-9">
                   <div class="form-group">
                     <legend>Method of Payment</legend>
-                    <legend style="font-size: small;">NMB BANK PLC BRANCH CODE : 505 <br> ACCOUNT NAME : Nane Nane Kanda ya Kati <br> ACCOUNT NUMBER : 50501100063 <br> SWIFT : NMIBTZTZ</legend>
+                    <legend style="font-size: small;">BANK : NBC BANK <br> ACCOUNT NAME : DRT SELF HELP <br> ACCOUNT NUMBER : 033103002859 <br> BRANCH : INDUSTRIAL AREA - ILALA DSM</legend>
                   </div>
                 </div>
               </div>
