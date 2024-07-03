@@ -82,15 +82,24 @@
         document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
         document.getElementById("speakerPariament").innerHTML = "Speaker - Parliament of Tanzania";
         document.getElementById("primeMinister").innerHTML = "Prime Minister";
+        document.getElementById("ministerNchi").innerHTML = "Minister of State (Union and Environment)";
+        document.getElementById("ministerNchiRegional").innerHTML = "MINISTER OF STATE, PRESIDENT OFFICE, REGIONAL ADMINISTRATION AND LOCAL GOVERNMENT";
         document.getElementById("deputyprime").innerHTML = "Deputy Prime Minister and Minister of Energy";
         document.getElementById("vicePresident").innerHTML = "Vice President of the United Republic of Tanzania";
+        document.getElementById("president").innerHTML = "President of the United Republic of Tanzania";
         document.getElementById("ministerUfugaji").innerHTML = "Minister - Ministry of Livestock and Fisheries";
         document.getElementById("ministerCommerce").innerHTML = "Minister of Industry and Commerce";
+        document.getElementById("ministerMadini").innerHTML = "Minister of Minerals";
+        document.getElementById("ministerAgricultureZanzibar").innerHTML = "Minister of Industry and Commerce";
         
         document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
+        document.getElementById("deptministerAgriculture").innerHTML = "Deputy Minister - Ministry of Agriculture";
         document.getElementById("secretaryUfugaji").innerHTML = "Permanent Secretary - Ministry of Livestock and Fisheries";
+        document.getElementById("secretaryMaji").innerHTML = "Permanent Secretary - Ministry of Water and Irrigation";
+        document.getElementById("depParmanentSecretary").innerHTML = "Deputy Permanent Secretary - Ministry of Agriculture";
         document.getElementById("commissional").innerHTML = "Regional Commissioner, Dodoma Region";
         document.getElementById("commissionalSingida").innerHTML = "Regional Commissioner, Singida Region";
+        document.getElementById("commissionalMbeya").innerHTML = "Regional Commissioner, Mbeya Region";
         document.getElementById("hotels").innerHTML = "List of Hotels";
         document.getElementById("participants").innerHTML = "PARTICIPANT INFORMATION NOTE";
         document.getElementById("mockup").innerHTML = "THE INTERNATIONAL AGRICULTURE TRADE SHOW MOCKUP DESIGN";
@@ -151,14 +160,23 @@
           document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
           document.getElementById("speakerPariament").innerHTML = "Speaker - Parliament of Tanzania";
           document.getElementById("primeMinister").innerHTML = "Prime Minister";
+          document.getElementById("ministerNchi").innerHTML = "Minister of State (Union and Environment)";
+          document.getElementById("ministerNchiRegional").innerHTML = "MINISTER OF STATE, PRESIDENT OFFICE, REGIONAL ADMINISTRATION AND LOCAL GOVERNMENT";
           document.getElementById("deputyprime").innerHTML = "Deputy Prime Minister and Minister of Energy";
           document.getElementById("vicePresident").innerHTML = "Vice President of the United Republic of Tanzania";
+          document.getElementById("president").innerHTML = "President of the United Republic of Tanzania";
           document.getElementById("ministerUfugaji").innerHTML = "Minister - Ministry of Livestock and Fisheries";
           document.getElementById("ministerCommerce").innerHTML = "Minister of Industry and Commerce";
+          document.getElementById("ministerMadini").innerHTML = "Minister of Minerals";
+          document.getElementById("ministerAgricultureZanzibar").innerHTML = "Minister of Industry and Commerce";
           document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
+          document.getElementById("deptministerAgriculture").innerHTML = "Deputy Minister - Ministry of Agriculture";
           document.getElementById("secretaryUfugaji").innerHTML = "Permanent Secretary - Ministry of Livestock and Fisheries";
+          document.getElementById("secretaryMaji").innerHTML = "Permanent Secretary - Ministry of Water and Irrigation";
+          document.getElementById("depParmanentSecretary").innerHTML = "Deputy Permanent Secretary - Ministry of Agriculture";
           document.getElementById("commissional").innerHTML = "Regional Commissioner, Dodoma Region";
           document.getElementById("commissionalSingida").innerHTML = "Regional Commissioner, Singida Region";
+          document.getElementById("commissionalMbeya").innerHTML = "Regional Commissioner, Mbeya Region";
           document.getElementById("hotels").innerHTML = "List of Hotels";
           document.getElementById("participants").innerHTML = "PARTICIPANT INFORMATION NOTE";
           document.getElementById("mockup").innerHTML = "THE INTERNATIONAL AGRICULTURE TRADE SHOW MOCKUP DESIGN";
@@ -213,14 +231,23 @@
           document.getElementById("ministerAgriculture").innerHTML = "Waziri - Wizara ya Kilimo";
           document.getElementById("speakerPariament").innerHTML = "Spika - Bunge la Tanzania";
           document.getElementById("primeMinister").innerHTML = "Waziri Mkuu";
+          document.getElementById("ministerNchi").innerHTML = "Waziri wa Nchi (Muungano na Mazingira)";
+          document.getElementById("ministerNchiRegional").innerHTML = "WAZIRI WA NCHI, OFISI YA RAIS TAMISEMI";
           document.getElementById("deputyprime").innerHTML = "Naibu Waziri Mkuu na Waziri wa Nishati";
           document.getElementById("vicePresident").innerHTML = "Makamu wa Rais wa Jamhuri ya Muungano wa Tanzania";
+          document.getElementById("president").innerHTML = "Rais wa Jamhuri ya Muungano wa Tanzania";
           document.getElementById("ministerUfugaji").innerHTML = "Waziri - Wizara ya Mifugo na Uvuvi";
           document.getElementById("ministerCommerce").innerHTML = "Waziri - Wizara ya Viwanda na Biashara";
+          document.getElementById("ministerMadini").innerHTML = "Waziri wa Madini";
+          document.getElementById("ministerAgricultureZanzibar").innerHTML = "Waziri wa Kilimo, Umwagiliaji, Maliasili na Mifugo Zanzibar";
           document.getElementById("secretaryAgriculture").innerHTML = "Katibu Mkuu - Wizara ya Kilimo";
+          document.getElementById("deptministerAgriculture").innerHTML = "Naibu Waziri - Wizara ya Kilimo";
           document.getElementById("secretaryUfugaji").innerHTML = "Katibu Mkuu - Wizara ya Mifugo na Uvuvi";
+          document.getElementById("secretaryMaji").innerHTML = "Katibu Mkuu - Wizara ya Maji na Umwagiliaji";
+          document.getElementById("depParmanentSecretary").innerHTML = "Naibu Katibu Mkuu - Wizara ya Kilimo";
           document.getElementById("commissional").innerHTML = "Mkuu wa Mkoa wa Dodoma";
           document.getElementById("commissionalSingida").innerHTML = "Mkuu wa Mkoa wa Singida";
+          document.getElementById("commissionalMbeya").innerHTML = "Mkuu wa Mkoa wa Mbeya";
           document.getElementById("hotels").innerHTML = "Orodha ya hoteli";
           document.getElementById("participants").innerHTML = "Maelezo ya Mshiriki";
           document.getElementById("mockup").innerHTML = "BIASHARA YA KILIMO YA KIMATAIFA YA MAONYESHO YA MCHEZO";
@@ -586,7 +613,16 @@
             </div> -->
             <div class="col-lg-12 pl-lg-6 mt-5 mt-lg-0">
               <div class="row">
-                <div class="col-sm-10 col-md-4 mt-5">
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/samia.jpeg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">HON. SAMIA SULUHU HASSAN</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="president"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/mpango.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -595,7 +631,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-4 mt-5">
+                <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/waziriMkuu.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -604,7 +640,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-4 mt-5">
+                <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/biteko.JPG') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -613,7 +649,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-4 mt-5">
+                <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/tulia.jpeg') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -622,7 +658,25 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-4 mt-5">
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/jafo.jpeg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Dr. Selemani Saidi Jafo</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="ministerNchi"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/mchengerwa.jpg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Mohamed Mchengerwa</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="ministerNchiRegional"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/bashe.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -631,7 +685,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-4 mt-5">
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/mavunde.jpg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Anthony Mavunde</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="ministerMadini"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/waziri.jpg') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -640,7 +703,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-4 mt-5">
+                <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/ashatu.JPG') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -649,7 +712,25 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-4 mt-5">
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/shaame.jpeg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Shamata Shaame Khamis</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="ministerAgricultureZanzibar"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/silinde.jpg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. David Silinde </h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="deptministerAgriculture"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/gerlad.JPG') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -658,7 +739,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-4 mt-5">
+                <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/katibuMkuu.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -667,7 +748,25 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-4 mt-5">
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/mkumbo.jpg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Prof. Kitila Alexander Mkumbo</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="secretaryMaji"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/omar.jpg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Dr Hussein Mohamedi Omar</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="depParmanentSecretary"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/rosemary.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -676,12 +775,21 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-4 mt-5">
+                <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/halimaOmary.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
                       <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">HON. HALIMA OMARY DENDEGO</h6>
                       <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="commissionalSingida"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/zuberi.jpeg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Juma Zuberi Homera</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="commissionalMbeya"></p>
                     </div>
                   </div>
                 </div>
