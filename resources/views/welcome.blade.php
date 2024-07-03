@@ -80,9 +80,12 @@
         document.getElementById("speakerHead").innerHTML = "Guests of Honour";
         // document.getElementById("speakerButton").innerHTML = "apply to speak Now!";
         document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
+        document.getElementById("speakerPariament").innerHTML = "Speaker - Parliament of Tanzania";
         document.getElementById("primeMinister").innerHTML = "Prime Minister";
+        document.getElementById("deputyprime").innerHTML = "Deputy Prime Minister and Minister of Energy";
         document.getElementById("vicePresident").innerHTML = "Vice President of the United Republic of Tanzania";
         document.getElementById("ministerUfugaji").innerHTML = "Minister - Ministry of Livestock and Fisheries";
+        document.getElementById("ministerCommerce").innerHTML = "Minister of Industry and Commerce";
         
         document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
         document.getElementById("secretaryUfugaji").innerHTML = "Permanent Secretary - Ministry of Livestock and Fisheries";
@@ -146,9 +149,12 @@
           document.getElementById("speakerHead").innerHTML = "Guests of Honour";
           // document.getElementById("speakerButton").innerHTML = "apply to speak Now!";
           document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
+          document.getElementById("speakerPariament").innerHTML = "Speaker - Parliament of Tanzania";
           document.getElementById("primeMinister").innerHTML = "Prime Minister";
+          document.getElementById("deputyprime").innerHTML = "Deputy Prime Minister and Minister of Energy";
           document.getElementById("vicePresident").innerHTML = "Vice President of the United Republic of Tanzania";
           document.getElementById("ministerUfugaji").innerHTML = "Minister - Ministry of Livestock and Fisheries";
+          document.getElementById("ministerCommerce").innerHTML = "Minister of Industry and Commerce";
           document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
           document.getElementById("secretaryUfugaji").innerHTML = "Permanent Secretary - Ministry of Livestock and Fisheries";
           document.getElementById("commissional").innerHTML = "Regional Commissioner, Dodoma Region";
@@ -205,9 +211,12 @@
           document.getElementById("speakerHead").innerHTML = "Wageni wa Heshima";
           // document.getElementById("speakerButton").innerHTML = "omba kuongea Sasa!";
           document.getElementById("ministerAgriculture").innerHTML = "Waziri - Wizara ya Kilimo";
+          document.getElementById("speakerPariament").innerHTML = "Spika - Bunge la Tanzania";
           document.getElementById("primeMinister").innerHTML = "Waziri Mkuu";
+          document.getElementById("deputyprime").innerHTML = "Naibu Waziri Mkuu na Waziri wa Nishati";
           document.getElementById("vicePresident").innerHTML = "Makamu wa Rais wa Jamhuri ya Muungano wa Tanzania";
           document.getElementById("ministerUfugaji").innerHTML = "Waziri - Wizara ya Mifugo na Uvuvi";
+          document.getElementById("ministerCommerce").innerHTML = "Waziri - Wizara ya Viwanda na Biashara";
           document.getElementById("secretaryAgriculture").innerHTML = "Katibu Mkuu - Wizara ya Kilimo";
           document.getElementById("secretaryUfugaji").innerHTML = "Katibu Mkuu - Wizara ya Mifugo na Uvuvi";
           document.getElementById("commissional").innerHTML = "Mkuu wa Mkoa wa Dodoma";
@@ -597,6 +606,24 @@
                 </div>
                 <div class="col-sm-10 col-md-4 mt-5">
                   <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/biteko.JPG') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Dr. Doto Mashaka Biteko</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="deputyprime"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-4 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/tulia.jpeg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Dr. Tulia Ackson</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="speakerPariament"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-4 mt-5">
+                  <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/bashe.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
                       <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Hussein Mohamed Bashe (MP)</h6>
@@ -610,6 +637,15 @@
                     <div class="col pl-0">
                       <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Abdallah Hamis Ulega (MP)</h6>
                       <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="ministerUfugaji"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-4 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/ashatu.JPG') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Dr. Ashatu K. Judge</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="ministerCommerce"></p>
                     </div>
                   </div>
                 </div>
