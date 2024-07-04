@@ -81,7 +81,7 @@
         // document.getElementById("speakerButton").innerHTML = "apply to speak Now!";
         document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
         document.getElementById("speakerPariament").innerHTML = "Speaker - Parliament of Tanzania";
-        document.getElementById("primeMinister").innerHTML = "Prime Minister";
+        document.getElementById("primeMinister").innerHTML = "Prime Minister - United Republic of Tanzania";
         document.getElementById("ministerNchi").innerHTML = "Minister of State Office of the Vice President (Union and Environment)";
         document.getElementById("ministerNchiRegional").innerHTML = "MINISTER OF STATE, PRESIDENT OFFICE, REGIONAL ADMINISTRATION AND LOCAL GOVERNMENT";
         document.getElementById("deputyprime").innerHTML = "Deputy Prime Minister and Minister of Energy";
@@ -90,7 +90,7 @@
         document.getElementById("ministerUfugaji").innerHTML = "Minister - Ministry of Livestock and Fisheries";
         document.getElementById("ministerCommerce").innerHTML = "Minister of Industry and Trade";
         document.getElementById("ministerMadini").innerHTML = "Minister of Minerals";
-        document.getElementById("ministerAgricultureZanzibar").innerHTML = "Minister of Industry and Commerce";
+        document.getElementById("ministerAgricultureZanzibar").innerHTML = "Minister - Ministry of Agriculture Irrigation, Natural Resources and Livestock Zanzibar";
         
         document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
         document.getElementById("deptministerAgriculture").innerHTML = "Deputy Minister - Ministry of Agriculture";
@@ -159,7 +159,7 @@
           // document.getElementById("speakerButton").innerHTML = "apply to speak Now!";
           document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
           document.getElementById("speakerPariament").innerHTML = "Speaker - Parliament of Tanzania";
-          document.getElementById("primeMinister").innerHTML = "Prime Minister";
+          document.getElementById("primeMinister").innerHTML = "Prime Minister - United Republic of Tanzania";
           document.getElementById("ministerNchi").innerHTML = "Minister of State Office of the Vice President (Union and Environment)";
           document.getElementById("ministerNchiRegional").innerHTML = "MINISTER OF STATE, PRESIDENT OFFICE, REGIONAL ADMINISTRATION AND LOCAL GOVERNMENT";
           document.getElementById("deputyprime").innerHTML = "Deputy Prime Minister and Minister of Energy";
@@ -168,7 +168,7 @@
           document.getElementById("ministerUfugaji").innerHTML = "Minister - Ministry of Livestock and Fisheries";
           document.getElementById("ministerCommerce").innerHTML = "Minister of Industry and Trade";
           document.getElementById("ministerMadini").innerHTML = "Minister of Minerals";
-          document.getElementById("ministerAgricultureZanzibar").innerHTML = "Minister of Industry and Commerce";
+          document.getElementById("ministerAgricultureZanzibar").innerHTML = "Minister - Ministry of Agriculture Irrigation, Natural Resources and Livestock Zanzibar";
           document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
           document.getElementById("deptministerAgriculture").innerHTML = "Deputy Minister - Ministry of Agriculture";
           document.getElementById("secretaryUfugaji").innerHTML = "Permanent Secretary - Ministry of Livestock and Fisheries";
@@ -230,7 +230,7 @@
           // document.getElementById("speakerButton").innerHTML = "omba kuongea Sasa!";
           document.getElementById("ministerAgriculture").innerHTML = "Waziri - Wizara ya Kilimo";
           document.getElementById("speakerPariament").innerHTML = "Spika - Bunge la Tanzania";
-          document.getElementById("primeMinister").innerHTML = "Waziri Mkuu";
+          document.getElementById("primeMinister").innerHTML = "Waziri Mkuu - Jamhuri ya Muungano wa Tanzania";
           document.getElementById("ministerNchi").innerHTML = "Waziri wa Nchi Ofisi ya Makamu wa Rais (Muungano na Mazingira)";
           document.getElementById("ministerNchiRegional").innerHTML = "WAZIRI WA NCHI, OFISI YA RAIS TAMISEMI";
           document.getElementById("deputyprime").innerHTML = "Naibu Waziri Mkuu na Waziri wa Nishati";
@@ -239,7 +239,7 @@
           document.getElementById("ministerUfugaji").innerHTML = "Waziri - Wizara ya Mifugo na Uvuvi";
           document.getElementById("ministerCommerce").innerHTML = "Waziri - Wizara ya Viwanda na Biashara";
           document.getElementById("ministerMadini").innerHTML = "Waziri wa Madini";
-          document.getElementById("ministerAgricultureZanzibar").innerHTML = "Waziri wa Kilimo, Umwagiliaji, Maliasili na Mifugo Zanzibar";
+          document.getElementById("ministerAgricultureZanzibar").innerHTML = "Waziri - Wizara ya Kilimo Umwagiliaji, Maliasili na Mifugo Zanzibar";
           document.getElementById("secretaryAgriculture").innerHTML = "Katibu Mkuu - Wizara ya Kilimo";
           document.getElementById("deptministerAgriculture").innerHTML = "Naibu Waziri - Wizara ya Kilimo";
           document.getElementById("secretaryUfugaji").innerHTML = "Katibu Mkuu - Wizara ya Mifugo na Uvuvi";
