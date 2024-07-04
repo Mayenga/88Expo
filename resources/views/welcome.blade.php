@@ -93,6 +93,8 @@
         document.getElementById("ministerAgricultureZanzibar").innerHTML = "Minister - Ministry of Agriculture Irrigation, Natural Resources and Livestock Zanzibar";
         
         document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
+        document.getElementById("secretaryFisheries").innerHTML = "Deputy Permanent Secretary  for Livestock and Fisheries Sector (Fisheries)";
+        document.getElementById("secretaryLivestock").innerHTML = "Deputy Permanent Secretary  for Livestock and Fisheries Sector (Livestock)";
         document.getElementById("deptministerAgriculture").innerHTML = "Deputy Minister - Ministry of Agriculture";
         document.getElementById("secretaryUfugaji").innerHTML = "Permanent Secretary - Ministry of Livestock and Fisheries";
         document.getElementById("secretaryMaji").innerHTML = "MINISTER OF STATE, PRESIDENT OFFICE, PLANNING AND INVESTMENT";
@@ -170,6 +172,8 @@
           document.getElementById("ministerMadini").innerHTML = "Minister of Minerals";
           document.getElementById("ministerAgricultureZanzibar").innerHTML = "Minister - Ministry of Agriculture Irrigation, Natural Resources and Livestock Zanzibar";
           document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
+          document.getElementById("secretaryFisheries").innerHTML = "Deputy Permanent Secretary  for Livestock and Fisheries Sector (Fisheries)";
+          document.getElementById("secretaryLivestock").innerHTML = "Deputy Permanent Secretary  for Livestock and Fisheries Sector (Livestock)";
           document.getElementById("deptministerAgriculture").innerHTML = "Deputy Minister - Ministry of Agriculture";
           document.getElementById("secretaryUfugaji").innerHTML = "Permanent Secretary - Ministry of Livestock and Fisheries";
           document.getElementById("secretaryMaji").innerHTML = "Permanent Secretary - Ministry of Water and Irrigation";
@@ -241,6 +245,8 @@
           document.getElementById("ministerMadini").innerHTML = "Waziri wa Madini";
           document.getElementById("ministerAgricultureZanzibar").innerHTML = "Waziri - Wizara ya Kilimo Umwagiliaji, Maliasili na Mifugo Zanzibar";
           document.getElementById("secretaryAgriculture").innerHTML = "Katibu Mkuu - Wizara ya Kilimo";
+          document.getElementById("secretaryFisheries").innerHTML = "Deputy Permanent Secretary  for Livestock and Fisheries Sector (Fisheries)";
+          document.getElementById("secretaryLivestock").innerHTML = "Naibu Katibu Mkuu Sekta ya Mifugo na Uvuvi (Mifugo)";
           document.getElementById("deptministerAgriculture").innerHTML = "Naibu Waziri - Wizara ya Kilimo";
           document.getElementById("secretaryUfugaji").innerHTML = "Katibu Mkuu - Wizara ya Mifugo na Uvuvi";
           document.getElementById("secretaryMaji").innerHTML = "Katibu Mkuu - Wizara ya Maji na Umwagiliaji";
@@ -732,15 +738,6 @@
                 </div>
                 <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
-                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/gerlad.JPG') }}" alt="thumb-image" /></div>
-                    <div class="col pl-0">
-                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Gerald Geofrey Mweli</h6>
-                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="secretaryAgriculture"></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-10 col-md-3 mt-5">
-                  <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/katibuMkuu.png') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
                       <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Prof. Riziki S Shemdoe</h6>
@@ -754,6 +751,33 @@
                     <div class="col pl-0">
                       <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Prof. Kitila Alexander Mkumbo</h6>
                       <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="secretaryMaji"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/gerlad.JPG') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Gerald Geofrey Mweli</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="secretaryAgriculture"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/mushi.jpg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Prof. Daniel Elius Mushi</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="secretaryLivestock"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 mt-5">
+                  <div class="row">
+                    <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/mhede.jpg') }}" alt="thumb-image" /></div>
+                    <div class="col pl-0">
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Dr. Edwin Paul Mhede</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="secretaryFisheries"></p>
                     </div>
                   </div>
                 </div>
