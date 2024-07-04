@@ -50,11 +50,11 @@
     
     <script>
       $(document).ready(function(){
-        document.getElementById("kaulimbiu").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
+        document.getElementById("kaulimbiu").innerHTML = "Visionary Leadership for Agricultural Transformation";
         document.getElementById("heading").innerHTML = "Nanenane Agricultural International Expo, 2024";
-        document.getElementById("kaulimbiu3").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
+        document.getElementById("kaulimbiu3").innerHTML = "Visionary Leadership for Agricultural Transformation";
         document.getElementById("heading3").innerHTML = "Nanenane Agricultural International Expo, 2024";
-        document.getElementById("kaulimbiu2").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
+        document.getElementById("kaulimbiu2").innerHTML = "Visionary Leadership for Agricultural Transformation";
         document.getElementById("heading2").innerHTML = "Nanenane Agricultural International Expo, 2024";
         // document.getElementById("register").innerHTML = "Register now!";
         // document.getElementById("register2").innerHTML = "Register now!";
@@ -131,11 +131,11 @@
         document.getElementById("locationHead").innerHTML = "Location & Contact";
         
         $("#en").click(function(){
-          document.getElementById("kaulimbiu").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
+          document.getElementById("kaulimbiu").innerHTML = "Visionary Leadership for Agricultural Transformation";
           document.getElementById("heading").innerHTML = "Nanenane Agricultural International Expo, 2024";
-          document.getElementById("kaulimbiu3").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
+          document.getElementById("kaulimbiu3").innerHTML = "Visionary Leadership for Agricultural Transformation";
           document.getElementById("heading3").innerHTML = "Nanenane Agricultural International Expo, 2024";
-          document.getElementById("kaulimbiu2").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
+          document.getElementById("kaulimbiu2").innerHTML = "Visionary Leadership for Agricultural Transformation";
           document.getElementById("heading2").innerHTML = "Nanenane Agricultural International Expo, 2024";
           // document.getElementById("register").innerHTML = "Register now!";
           // document.getElementById("register2").innerHTML = "Register now!";
@@ -202,11 +202,11 @@
 
         });
         $("#sw").click(function(){
-          document.getElementById("kaulimbiu").innerHTML = "Chagua Viongozi bora wa Serikali za Mitaa kwa Maendeleo Endelevu ya Kilimo, Mifugo na Uvuvi";
+          document.getElementById("kaulimbiu").innerHTML = "Uongozi wenye Maono ya Mabadiliko ya Kilimo";
           document.getElementById("heading").innerHTML = "Maonyesho ya Kimataifa ya Kilimo ya Nanenane, 2024";
-          document.getElementById("kaulimbiu3").innerHTML = "Chagua Viongozi bora wa Serikali za Mitaa kwa Maendeleo Endelevu ya Kilimo, Mifugo na Uvuvi";
+          document.getElementById("kaulimbiu3").innerHTML = "Uongozi wenye Maono ya Mabadiliko ya Kilimo";
           document.getElementById("heading3").innerHTML = "Maonyesho ya Kimataifa ya Kilimo ya Nanenane, 2024";
-          document.getElementById("kaulimbiu2").innerHTML = "Chagua Viongozi bora wa Serikali za Mitaa kwa Maendeleo Endelevu ya Kilimo, Mifugo na Uvuvi";
+          document.getElementById("kaulimbiu2").innerHTML = "Uongozi wenye Maono ya Mabadiliko ya Kilimo";
           document.getElementById("heading2").innerHTML = "Maonyesho ya Kimataifa ya Kilimo ya Nanenane, 2024";
           // document.getElementById("register").innerHTML = "Jisajiri sasa!";
           // document.getElementById("register2").innerHTML = "Jisajiri sasa!";
