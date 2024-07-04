@@ -318,7 +318,7 @@
           <div class="ball-scale-ripple">
             <div></div>
           </div>
-          <h5 class="fs-1 pr- text-light text-uppercase mb-0 mt-3">NANENANE AGRICULTURAL INTERNATIONAL EEXPO 2024</h5>
+          <h5 class="fs-1 pr- text-light text-uppercase mb-0 mt-3">NANENANE AGRICULTURAL INTERNATIONAL EXPO 2024</h5>
         </div>
       </div>
       <!-- ============================================-->
@@ -326,7 +326,7 @@
       <a class="bottom-to-top rounded-soft" href="#top" data-fancyscroll><span class="fas fa-angle-up lg" data-fa-transform="down-2"></span></a>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0" id="top">
         <div class="container">
-          <a class="navbar-brand ml-3 ml-md-0" href="/"><img src="{{ asset('77assets/img/logos/88EXPOO.PNG') }}" alt="logo" style="margin: 0 auto; height: 35px; max-width:80px; text-indent: -9999px;" /></a>
+          <a class="navbar-brand ml-3 ml-md-0" href="/"><img src="{{ asset('77assets/img/logos/88EXPOO.png') }}" alt="logo" style="margin: 0 auto; height: 35px; max-width:80px; text-indent: -9999px;" /></a>
           <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse ml-2 ml-md-0" id="navbarContent">
             <ul class="navbar-nav text-uppercase font-weight-semi-bold ml-auto" id="navbar-spy">
