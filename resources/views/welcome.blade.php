@@ -93,8 +93,8 @@
         document.getElementById("ministerAgricultureZanzibar").innerHTML = "Minister - Ministry of Agriculture Irrigation, Natural Resources and Livestock Zanzibar";
         
         document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
-        document.getElementById("secretaryFisheries").innerHTML = "Deputy Permanent Secretary  for Livestock and Fisheries Sector (Fisheries)";
-        document.getElementById("secretaryLivestock").innerHTML = "Deputy Permanent Secretary  for Livestock and Fisheries Sector (Livestock)";
+        document.getElementById("secretaryFisheries").innerHTML = "Deputy Permanent Secretary (Fisheries)";
+        document.getElementById("secretaryLivestock").innerHTML = "Deputy Permanent Secretary (Livestock)";
         document.getElementById("deptministerAgriculture").innerHTML = "Deputy Minister - Ministry of Agriculture";
         document.getElementById("secretaryUfugaji").innerHTML = "Permanent Secretary - Ministry of Livestock and Fisheries";
         document.getElementById("secretaryMaji").innerHTML = "MINISTER OF STATE, PRESIDENT OFFICE, PLANNING AND INVESTMENT";
