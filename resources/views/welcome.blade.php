@@ -99,7 +99,7 @@
         document.getElementById("depParmanentSecretary").innerHTML = "Deputy Permanent Secretary - Ministry of Agriculture";
         document.getElementById("commissional").innerHTML = "Regional Commissioner, Dodoma Region";
         document.getElementById("commissionalSingida").innerHTML = "Regional Commissioner, Singida Region";
-        document.getElementById("commissionalMbeya").innerHTML = "Regional Commissioner, Mbeya Region";
+        // document.getElementById("commissionalMbeya").innerHTML = "Regional Commissioner, Mbeya Region";
         document.getElementById("hotels").innerHTML = "List of Hotels";
         document.getElementById("participants").innerHTML = "PARTICIPANT INFORMATION NOTE";
         document.getElementById("mockup").innerHTML = "MOCKUP DESIGN";
@@ -176,7 +176,7 @@
           document.getElementById("depParmanentSecretary").innerHTML = "Deputy Permanent Secretary - Ministry of Agriculture";
           document.getElementById("commissional").innerHTML = "Regional Commissioner, Dodoma Region";
           document.getElementById("commissionalSingida").innerHTML = "Regional Commissioner, Singida Region";
-          document.getElementById("commissionalMbeya").innerHTML = "Regional Commissioner, Mbeya Region";
+          // document.getElementById("commissionalMbeya").innerHTML = "Regional Commissioner, Mbeya Region";
           document.getElementById("hotels").innerHTML = "List of Hotels";
           document.getElementById("participants").innerHTML = "PARTICIPANT INFORMATION NOTE";
           document.getElementById("mockup").innerHTML = "MOCKUP DESIGN";
@@ -247,7 +247,7 @@
           document.getElementById("depParmanentSecretary").innerHTML = "Naibu Katibu Mkuu - Wizara ya Kilimo";
           document.getElementById("commissional").innerHTML = "Mkuu wa Mkoa wa Dodoma";
           document.getElementById("commissionalSingida").innerHTML = "Mkuu wa Mkoa wa Singida";
-          document.getElementById("commissionalMbeya").innerHTML = "Mkuu wa Mkoa wa Mbeya";
+          // document.getElementById("commissionalMbeya").innerHTML = "Mkuu wa Mkoa wa Mbeya";
           document.getElementById("hotels").innerHTML = "Orodha ya hoteli";
           document.getElementById("participants").innerHTML = "Maelezo ya Mshiriki";
           document.getElementById("mockup").innerHTML = "UBUNIFU WA MOCKUP";
