@@ -102,7 +102,7 @@
         document.getElementById("commissionalMbeya").innerHTML = "Regional Commissioner, Mbeya Region";
         document.getElementById("hotels").innerHTML = "List of Hotels";
         document.getElementById("participants").innerHTML = "PARTICIPANT INFORMATION NOTE";
-        document.getElementById("mockup").innerHTML = "THE INTERNATIONAL AGRICULTURE TRADE SHOW MOCKUP DESIGN";
+        document.getElementById("mockup").innerHTML = "MOCKUP DESIGN";
         document.getElementById("scheduleHead").innerHTML = "Event Schedule";
         
         // document.getElementById("tbc").innerHTML = "To be confirmed";
@@ -179,7 +179,7 @@
           document.getElementById("commissionalMbeya").innerHTML = "Regional Commissioner, Mbeya Region";
           document.getElementById("hotels").innerHTML = "List of Hotels";
           document.getElementById("participants").innerHTML = "PARTICIPANT INFORMATION NOTE";
-          document.getElementById("mockup").innerHTML = "THE INTERNATIONAL AGRICULTURE TRADE SHOW MOCKUP DESIGN";
+          document.getElementById("mockup").innerHTML = "MOCKUP DESIGN";
           document.getElementById("scheduleHead").innerHTML = "Event Schedule";
           // document.getElementById("tbc").innerHTML = "To be confirmed";
           // document.getElementById("tbc2").innerHTML = "To be confirmed";
@@ -250,7 +250,7 @@
           document.getElementById("commissionalMbeya").innerHTML = "Mkuu wa Mkoa wa Mbeya";
           document.getElementById("hotels").innerHTML = "Orodha ya hoteli";
           document.getElementById("participants").innerHTML = "Maelezo ya Mshiriki";
-          document.getElementById("mockup").innerHTML = "BIASHARA YA KILIMO YA KIMATAIFA YA MAONYESHO YA MCHEZO";
+          document.getElementById("mockup").innerHTML = "UBUNIFU WA MOCKUP";
           document.getElementById("scheduleHead").innerHTML = "Ratiba ya Tukio";
           // document.getElementById("tbc").innerHTML = "Ili kuthibitishwa";
           // document.getElementById("tbc2").innerHTML = "Ili kuthibitishwa";
