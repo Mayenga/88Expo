@@ -82,20 +82,20 @@
         document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
         document.getElementById("speakerPariament").innerHTML = "Speaker - Parliament of Tanzania";
         document.getElementById("primeMinister").innerHTML = "Prime Minister";
-        document.getElementById("ministerNchi").innerHTML = "Minister of State (Union and Environment)";
+        document.getElementById("ministerNchi").innerHTML = "Minister of State Office of the Vice President (Union and Environment)";
         document.getElementById("ministerNchiRegional").innerHTML = "MINISTER OF STATE, PRESIDENT OFFICE, REGIONAL ADMINISTRATION AND LOCAL GOVERNMENT";
         document.getElementById("deputyprime").innerHTML = "Deputy Prime Minister and Minister of Energy";
         document.getElementById("vicePresident").innerHTML = "Vice President of the United Republic of Tanzania";
         document.getElementById("president").innerHTML = "President of the United Republic of Tanzania";
         document.getElementById("ministerUfugaji").innerHTML = "Minister - Ministry of Livestock and Fisheries";
-        document.getElementById("ministerCommerce").innerHTML = "Minister of Industry and Commerce";
+        document.getElementById("ministerCommerce").innerHTML = "Minister of Industry and Trade";
         document.getElementById("ministerMadini").innerHTML = "Minister of Minerals";
         document.getElementById("ministerAgricultureZanzibar").innerHTML = "Minister of Industry and Commerce";
         
         document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
         document.getElementById("deptministerAgriculture").innerHTML = "Deputy Minister - Ministry of Agriculture";
         document.getElementById("secretaryUfugaji").innerHTML = "Permanent Secretary - Ministry of Livestock and Fisheries";
-        document.getElementById("secretaryMaji").innerHTML = "Permanent Secretary - Ministry of Water and Irrigation";
+        document.getElementById("secretaryMaji").innerHTML = "MINISTER OF STATE, PRESIDENT OFFICE, PLANNING AND INVESTMENT";
         document.getElementById("depParmanentSecretary").innerHTML = "Deputy Permanent Secretary - Ministry of Agriculture";
         document.getElementById("commissional").innerHTML = "Regional Commissioner, Dodoma Region";
         document.getElementById("commissionalSingida").innerHTML = "Regional Commissioner, Singida Region";
@@ -160,13 +160,13 @@
           document.getElementById("ministerAgriculture").innerHTML = "Minister - Ministry of Agriculture";
           document.getElementById("speakerPariament").innerHTML = "Speaker - Parliament of Tanzania";
           document.getElementById("primeMinister").innerHTML = "Prime Minister";
-          document.getElementById("ministerNchi").innerHTML = "Minister of State (Union and Environment)";
+          document.getElementById("ministerNchi").innerHTML = "Minister of State Office of the Vice President (Union and Environment)";
           document.getElementById("ministerNchiRegional").innerHTML = "MINISTER OF STATE, PRESIDENT OFFICE, REGIONAL ADMINISTRATION AND LOCAL GOVERNMENT";
           document.getElementById("deputyprime").innerHTML = "Deputy Prime Minister and Minister of Energy";
           document.getElementById("vicePresident").innerHTML = "Vice President of the United Republic of Tanzania";
           document.getElementById("president").innerHTML = "President of the United Republic of Tanzania";
           document.getElementById("ministerUfugaji").innerHTML = "Minister - Ministry of Livestock and Fisheries";
-          document.getElementById("ministerCommerce").innerHTML = "Minister of Industry and Commerce";
+          document.getElementById("ministerCommerce").innerHTML = "Minister of Industry and Trade";
           document.getElementById("ministerMadini").innerHTML = "Minister of Minerals";
           document.getElementById("ministerAgricultureZanzibar").innerHTML = "Minister of Industry and Commerce";
           document.getElementById("secretaryAgriculture").innerHTML = "Permanent Secretary - Ministry of Agriculture";
@@ -231,7 +231,7 @@
           document.getElementById("ministerAgriculture").innerHTML = "Waziri - Wizara ya Kilimo";
           document.getElementById("speakerPariament").innerHTML = "Spika - Bunge la Tanzania";
           document.getElementById("primeMinister").innerHTML = "Waziri Mkuu";
-          document.getElementById("ministerNchi").innerHTML = "Waziri wa Nchi (Muungano na Mazingira)";
+          document.getElementById("ministerNchi").innerHTML = "Waziri wa Nchi Ofisi ya Makamu wa Rais (Muungano na Mazingira)";
           document.getElementById("ministerNchiRegional").innerHTML = "WAZIRI WA NCHI, OFISI YA RAIS TAMISEMI";
           document.getElementById("deputyprime").innerHTML = "Naibu Waziri Mkuu na Waziri wa Nishati";
           document.getElementById("vicePresident").innerHTML = "Makamu wa Rais wa Jamhuri ya Muungano wa Tanzania";
@@ -455,11 +455,11 @@
         <!--/.bg-holder-->
         <div class="container">
           <div class="row text-white justify-content-center">
-            <div class="col-xl-6 col-lg-6 text-center">
+            <div class="col-6 col-xl-6 col-lg-6 text-center">
               <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="participants" style="font-size: medium;"></h3>
               <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/88 Participant Information Note 2024 REVISED VERSION 24062024.pdf" target="_blank" id="register6"></a>
             </div>
-            <div class="col-xl-6 col-lg-6 text-center">
+            <div class="col-6 col-xs-12 col-xl-6 col-lg-6 text-center">
             <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="mockup" style="font-size: medium;"></h3>
             <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/Mockup_Design_Nane_Nane_Exhibition.pdf" target="_blank" id="register7"></a>
             </div>
@@ -663,7 +663,7 @@
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/jafo.jpeg') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
                       <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Dr. Selemani Saidi Jafo</h6>
-                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="ministerNchi"></p>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="ministerCommerce"></p>
                     </div>
                   </div>
                 </div>
@@ -707,8 +707,8 @@
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/ashatu.JPG') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
-                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Dr. Ashatu K. Judge</h6>
-                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="ministerCommerce"></p>
+                      <h6 class="fs-0 text-uppercase text-base font-weight-extra-bold mb-0">Hon. Dr. Ashatu K. Kijaji</h6>
+                      <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="ministerNchi"></p>
                     </div>
                   </div>
                 </div>
@@ -784,7 +784,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-10 col-md-3 mt-5">
+                <!-- <div class="col-sm-10 col-md-3 mt-5">
                   <div class="row">
                     <div class="col-5"><img class="rounded-soft-speakers img-fluid" src="{{ asset('77assets/img/team/88/zuberi.jpeg') }}" alt="thumb-image" /></div>
                     <div class="col pl-0">
@@ -792,7 +792,7 @@
                       <p class="fs--1 text-uppercase font-weight-extra-bold text-500 mb-1" id="commissionalMbeya"></p>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
