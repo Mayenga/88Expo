@@ -51,11 +51,11 @@
     <script>
       $(document).ready(function(){
         document.getElementById("kaulimbiu").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
-        document.getElementById("heading").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
+        document.getElementById("heading").innerHTML = "Nanenane Agricultural International Expo, 2024";
         document.getElementById("kaulimbiu3").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
-        document.getElementById("heading3").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
+        document.getElementById("heading3").innerHTML = "Nanenane Agricultural International Expo, 2024";
         document.getElementById("kaulimbiu2").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
-        document.getElementById("heading2").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
+        document.getElementById("heading2").innerHTML = "Nanenane Agricultural International Expo, 2024";
         // document.getElementById("register").innerHTML = "Register now!";
         // document.getElementById("register2").innerHTML = "Register now!";
         document.getElementById("register3").innerHTML = "Register now!";
@@ -132,11 +132,11 @@
         
         $("#en").click(function(){
           document.getElementById("kaulimbiu").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
-          document.getElementById("heading").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
+          document.getElementById("heading").innerHTML = "Nanenane Agricultural International Expo, 2024";
           document.getElementById("kaulimbiu3").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
-          document.getElementById("heading3").innerHTML = "Nane Nane International <br> Trade Fair, 2024";
+          document.getElementById("heading3").innerHTML = "Nanenane Agricultural International Expo, 2024";
           document.getElementById("kaulimbiu2").innerHTML = "Empowering Agricultural Sector through Responsible Leadership";
-          document.getElementById("heading2").innerHTML = "The Nane Nane International <br> Trade Fair, 2024";
+          document.getElementById("heading2").innerHTML = "Nanenane Agricultural International Expo, 2024";
           // document.getElementById("register").innerHTML = "Register now!";
           // document.getElementById("register2").innerHTML = "Register now!";
           document.getElementById("register3").innerHTML = "Register now!";
@@ -203,11 +203,11 @@
         });
         $("#sw").click(function(){
           document.getElementById("kaulimbiu").innerHTML = "Chagua Viongozi bora wa Serikali za Mitaa kwa Maendeleo Endelevu ya Kilimo, Mifugo na Uvuvi";
-          document.getElementById("heading").innerHTML = "Maonyesho ya Biashara ya Kimataifa ya Nane Nane, 2024";
+          document.getElementById("heading").innerHTML = "Maonyesho ya Kimataifa ya Kilimo ya Nanenane, 2024";
           document.getElementById("kaulimbiu3").innerHTML = "Chagua Viongozi bora wa Serikali za Mitaa kwa Maendeleo Endelevu ya Kilimo, Mifugo na Uvuvi";
-          document.getElementById("heading3").innerHTML = "Maonyesho ya Biashara ya Kimataifa ya Nane Nane, 2024";
+          document.getElementById("heading3").innerHTML = "Maonyesho ya Kimataifa ya Kilimo ya Nanenane, 2024";
           document.getElementById("kaulimbiu2").innerHTML = "Chagua Viongozi bora wa Serikali za Mitaa kwa Maendeleo Endelevu ya Kilimo, Mifugo na Uvuvi";
-          document.getElementById("heading2").innerHTML = "Maonyesho ya Biashara ya Kimataifa ya Nane Nane, 2024";
+          document.getElementById("heading2").innerHTML = "Maonyesho ya Kimataifa ya Kilimo ya Nanenane, 2024";
           // document.getElementById("register").innerHTML = "Jisajiri sasa!";
           // document.getElementById("register2").innerHTML = "Jisajiri sasa!";
           document.getElementById("register3").innerHTML = "Jisajiri sasa!";
@@ -318,7 +318,7 @@
           <div class="ball-scale-ripple">
             <div></div>
           </div>
-          <h5 class="fs-1 pr- text-light text-uppercase mb-0 mt-3">NANE NANE INTERNATIONAL TRADE FAIR, 2024</h5>
+          <h5 class="fs-1 pr- text-light text-uppercase mb-0 mt-3">NANENANE AGRICULTURAL INTERNATIONAL EEXPO 2024</h5>
         </div>
       </div>
       <!-- ============================================-->
