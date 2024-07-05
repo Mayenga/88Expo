@@ -206,11 +206,11 @@
 
         });
         $("#sw").click(function(){
-          document.getElementById("kaulimbiu").innerHTML = "Kukumbatia Uongozi wenye Maono ya Mabadiliko ya Kilimo";
+          document.getElementById("kaulimbiu").innerHTML = "Chagua Viongozi Bora wa Serikali za Mitaa kwa Maendeleo ya Kilimo Mifugo na Uvuvi";
           document.getElementById("heading").innerHTML = "Maonyesho ya Kimataifa ya Kilimo ya Nanenane, 2024";
-          document.getElementById("kaulimbiu3").innerHTML = "Kukumbatia Uongozi wenye Maono ya Mabadiliko ya Kilimo";
+          document.getElementById("kaulimbiu3").innerHTML = "Chagua Viongozi Bora wa Serikali za Mitaa kwa Maendeleo ya Kilimo Mifugo na Uvuvi";
           document.getElementById("heading3").innerHTML = "Maonyesho ya Kimataifa ya Kilimo ya Nanenane, 2024";
-          document.getElementById("kaulimbiu2").innerHTML = "Kukumbatia Uongozi wenye Maono ya Mabadiliko ya Kilimo";
+          document.getElementById("kaulimbiu2").innerHTML = "Chagua Viongozi Bora wa Serikali za Mitaa kwa Maendeleo ya Kilimo Mifugo na Uvuvi";
           document.getElementById("heading2").innerHTML = "Maonyesho ya Kimataifa ya Kilimo ya Nanenane, 2024";
           // document.getElementById("register").innerHTML = "Jisajiri sasa!";
           // document.getElementById("register2").innerHTML = "Jisajiri sasa!";
@@ -500,12 +500,12 @@
       <!-- <section> begin ============================-->
       <section id="exhibitors">
 
-        <div class="bg-holder overlay bg-overlay-primary" style="background-image:url(77assets/img/background/organizers-bg.jpeg);">
+        <div class="bg-holder overlay bg-overlay-primary2" style="background-image:url(77assets/img/background/organizers-bg.jpegg);background-color:whitesmoke">
         </div>
         <!--/.bg-holder-->
 
         <div class="container">
-          <h3 class="text-white mb-6" id="exhibitorsHead"></h3>
+          <h3 class="mb-6" id="exhibitorsHead" style="color:green;"></h3>
           <div class="row pb-3 pb-lg-5">
             <div class="col-lg-3"><img class="img-fluid d-none d-lg-block h-100 rounded-soft fit-cover" src="{{ asset('77assets/img/team/exhibitors/rev-slider-03.jpeg') }}" alt="" />
               
@@ -517,84 +517,84 @@
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Crops, livestock, and fisheries producers and processors.</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design"><span class="designNumber">1</span><span class="designWords">Crops, livestock, and fisheries producers and processors.</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Companies and Institutions dealing with agricultural inputs.</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design"><span class="designNumber">2</span><span class="designWords">Companies and Institutions dealing with agricultural inputs.</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Providers of agricultural machineries and equipment</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design2"><span class="designNumber2">3</span><span class="designWords2">Providers of agricultural machineries and equipment</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Sector Ministries and other Ministries</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design2"><span class="designNumber2">4</span><span class="designWords2">Sector Ministries and other Ministries</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Governmental and Non-Governmental Institutions</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design"><span class="designNumber">5</span><span class="designWords">Governmental and Non-Governmental Institutions</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Parliamentary and diplomatic delegates</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design"><span class="designNumber">6</span><span class="designWords">Parliamentary and diplomatic delegates</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Development Partners</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design2"><span class="designNumber2">7</span><span class="designWords2">Development Partners</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Financial Institutions</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design2"><span class="designNumber2">8</span><span class="designWords2">Financial Institutions</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Educational Institutions</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design"><span class="designNumber">9</span><span class="designWords">Educational Institutions</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Health Institutions</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design"><span class="designNumber">10</span><span class="designWords">Health Institutions</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Telecommunication companies and journalist</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design2"><span class="designNumber2">11</span><span class="designWords2">Telecommunication companies and journalist</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-10 col-md-6 mb-5">
                   <div class="row">
                     <div class="col pl-0">
-                      <p class="text-white font-weight-extra-bold text-uppercase mb-0">Logistics services providers</p>
+                      <p class="text-white font-weight-extra-bold text-uppercase mb-0 design2"><span class="designNumber2">12</span><span class="designWords2">Logistics services providers</span></p>
                     </div>
                   </div>
                 </div>
