@@ -37,7 +37,7 @@ class RegisterController extends Controller
             $participant->address = $request->address;
             $participant->registerAs = $request->registerAs;
             if ($participant->save()){
-                return response()->json(['success' => 'User registered Successfully']);   
+                return response()->json(['success' => 'THANK YOU FOR REGISTERING FOR NANENANE AGRICULTURAL INTERNATIONAL EXPO, 2024']);   
             }else{
                 return response()->json(['error' => 'Something went wrong!']);   
             }

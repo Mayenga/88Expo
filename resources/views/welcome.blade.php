@@ -1534,6 +1534,10 @@
       </div>
     </footer>
 
+    <div id="notifyDiv" class="alert alert-success" style="position: fixed;top:10%;right:10%;z-index: 100000">
+      <strong>Success!</strong> 
+    </div>
+
     <!-- modal Form for participants registration -->
     <div class="modal fade bd-example-modal-lg overflow-auto" tabindex="-1" role="dialog" aria-labelledby="registration-modal" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -1544,7 +1548,6 @@
               <h4 class="pl-3 text-900" id="registration-modal">Register For Participation</h4>
               <p class="pl-3 mb-0">Exhibition 2024 will be available in August. Please provide your information to be notified when Exhibition briefing are made.</p>
             </div>
-            <div id="notifyDiv"></div>
           </div>
           <div class="modal-body">
             <form id="register_form" class="zform">
