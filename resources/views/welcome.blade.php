@@ -1535,7 +1535,6 @@
     </footer>
 
     <div id="notifyDiv" class="alert alert-success" style="position: fixed;top:10%;right:10%;z-index: 100000">
-      <strong>Success!</strong> 
     </div>
 
     <!-- modal Form for participants registration -->
