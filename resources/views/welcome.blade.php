@@ -463,7 +463,7 @@
           <div class="row text-white justify-content-center">
             <div class="col-6 col-xl-6 col-lg-6 text-center">
               <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="participants" style="font-size: medium;"></h3>
-              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/88 Participant Information Note 2024 REVISED VERSION 24062024.pdf" target="_blank" id="register6"></a>
+              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/88 Participant Information Note 2024 REVISED VERSION 240620244.pdf" target="_blank" id="register6"></a>
             </div>
             <div class="col-6 col-xs-12 col-xl-6 col-lg-6 text-center">
             <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="mockup" style="font-size: medium;"></h3>
