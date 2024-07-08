@@ -95,7 +95,7 @@
               </div>
 
               <div class="credits">
-                Powered by <a href="#">Smartclic Technologies</a>
+                Powered by <a href="https://smartclic.co.tz" target="_blank">Smartclic</a>
               </div>
 
             </div>

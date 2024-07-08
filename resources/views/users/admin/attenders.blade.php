@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dashboard - NANENANE EXPO 2024</title>
+  <title>Attenders - NANENANE EXPO 2024</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,6 +28,8 @@
 
   <!-- Template Main CSS File -->
   <link href="{{ asset('admin/assets/css/style.css') }}" rel="stylesheet">
+
+  <!-- Datatables -->
 </head>
 
 <body>
@@ -262,11 +264,11 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Dashboard</h1>
+      <h1>Attenders</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
-          <li class="breadcrumb-item active">Dashboard</li>
+          <li class="breadcrumb-item active">Attenders</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
@@ -279,24 +281,47 @@
           <div class="row">
 
             <!-- Sales Card -->
-            <div class="col-xxl-4 col-md-6">
-              <div class="card info-card sales-card">
-
-                <div class="card-body">
-                  <h5 class="card-title">Total Registration</h5>
-
-                  <div class="d-flex align-items-center">
-                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-people-fill"></i>
-                    </div>
-                    <div class="ps-3">
-                      <?php use App\Models\Participants; ?>
-                      <h6>{{$count = Participants::count()}}</h6>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
+            <div class="col-xxl-12 col-md-12 col-sm-12 card info-card customers-card recent-sales overflow-auto">
+                @if (isset($attendees))
+                <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Full Name</th>
+                            <th>Organization</th>
+                            <th>County</th>
+                            <th>Email(s)</th>
+                            <th>Mobile</th>
+                            <th>Address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php $no = 1; ?>
+                        @foreach ($attendees as $attendee)
+                        <tr>
+                            <td>{{$no}}</td>
+                            <td>{{ $attendee->fname}} {{$attendee->mname}} {{$attendee->lname}}</td>
+                            <td>{{$attendee->organization}} - {{$attendee->organizationType}}</td>
+                            <td>{{$attendee->country}}</td>
+                            <td>{{$attendee->bemail}} / {{$attendee->email}}</td>
+                            <td>{{$attendee->phone}}</td>
+                            <td>{{$attendee->address}}</td>
+                        </tr>
+                        <?php $no++; ?>
+                        @endforeach
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Organization</th>
+                            <th>County</th>
+                            <th>Email(s)</th>
+                            <th>Mobile</th>
+                            <th>Address</th>
+                        </tr>
+                    </tfoot>
+                </table>
+                @endif
             </div><!-- End Sales Card -->
 
             <!-- Revenue Card -->
@@ -539,6 +564,8 @@
   <script src="{{ asset('admin/assets/vendor/simple-datatables/simple-datatables.js') }}"></script>
   <script src="{{ asset('admin/assets/vendor/tinymce/tinymce.min.js') }}"></script>
   <script src="{{ asset('admin/assets/vendor/php-email-form/validate.js') }}"></script>
+
+<!-- datatables -->
 
   <!-- Template Main JS File -->
   <script src="{{ asset('admin/assets/js/main.js') }}"></script>
