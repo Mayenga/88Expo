@@ -8,6 +8,8 @@ use App\Models\Participants;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Auth\Events\Registered;
 use App\Providers\RouteServiceProvider;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\WelcomeEmail;
 
 class RegisterController extends Controller
 {
@@ -36,7 +38,13 @@ class RegisterController extends Controller
             $participant->organizationType = $request->organizationType;
             $participant->address = $request->address;
             $participant->registerAs = $request->registerAs;
+            $namefro = 'From Name';
             if ($participant->save()){
+                $data = array('name'=>$request->lname, 'email' => $request->email,'from' => $namefro);
+                Mail::send(['text'=>'welcomeMailTMP'], $data, function($message)use ($participant) {
+                    $message->to($participant->email, $participant->name)->subject('Welcome to Nanenane Agricultural International Expo 2024!');
+                    $message->from('ps@nanenane.kilimo.go.tz','Nanenane Agricultural International Expo, 2024');
+                });
                 return response()->json(['success' => 'THANK YOU FOR REGISTERING FOR NANENANE AGRICULTURAL INTERNATIONAL EXPO, 2024']);   
             }else{
                 return response()->json(['error' => 'Something went wrong!']);   
