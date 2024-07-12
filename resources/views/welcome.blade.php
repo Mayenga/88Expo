@@ -1935,7 +1935,7 @@
                 <div class="col-lg-9">
                   <div class="form-group">
                     <legend>Method of Payment</legend>
-                    <legend style="font-size: small;">BANK : NBC BANK <br> ACCOUNT NAME : DRT SELF HELP <br> ACCOUNT NUMBER : 033103002859 <br> BRANCH : INDUSTRIAL AREA - ILALA DSM</legend>
+                    <legend style="font-size: small;">CONTROLL NUMBER : 997460011193</legend>
                   </div>
                 </div>
               </div>
