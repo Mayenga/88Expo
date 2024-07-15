@@ -27,8 +27,9 @@
     </tr>
 	</thead>
 	<tbody>
+    <?php $no = 1; ?>
   @foreach ($attendees as $attendee)
-  <?php $no = 1; 
+  <?php 
     if($attendee->organizationType == 'GI'){
       $organizationType = 'Government Institution';
     }elseif($attendee->organizationType == 'RE'){
