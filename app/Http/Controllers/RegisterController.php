@@ -40,6 +40,7 @@ class RegisterController extends Controller
             $participant->registerAs = $request->registerAs;
             $participant->booth = $request->booth;
             $participant->other = $request->other;
+            $participant->products = $request->products;
             $namefro = 'From Name';
             if ($participant->save()){
                 $data = array('name'=>$request->lname, 'email' => $request->email,'from' => $namefro);
