@@ -38,6 +38,8 @@ class RegisterController extends Controller
             $participant->organizationType = $request->organizationType;
             $participant->address = $request->address;
             $participant->registerAs = $request->registerAs;
+            $participant->booth = $request->booth;
+            $participant->other = $request->other;
             $namefro = 'From Name';
             if ($participant->save()){
                 $data = array('name'=>$request->lname, 'email' => $request->email,'from' => $namefro);

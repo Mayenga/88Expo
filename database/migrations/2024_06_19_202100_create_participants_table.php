@@ -28,6 +28,9 @@ class CreateParticipantsTable extends Migration
             $table->string('organization')->nullable();
             $table->string('organizationType')->nullable();
             $table->string('registerAs');
+            $table->string('booth')->nullable();
+            $table->string('other')->nullable();
+            $table->string('products')->nullable();
             $table->timestamps();
         });
     }

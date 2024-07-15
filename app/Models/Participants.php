@@ -22,5 +22,8 @@ class Participants extends Model
         'organization',
         'organizationType',
         'registerAs',
+        'products',
+        'other',
+        'booth'
     ];
 }

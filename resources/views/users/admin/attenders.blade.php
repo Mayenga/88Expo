@@ -22,19 +22,37 @@
       <th>Email(s)</th>
       <th>Mobile</th>
       <th>Address</th>
+      <th>Booth</th>
+      <th>Products</th>
     </tr>
 	</thead>
 	<tbody>
-  <?php $no = 1; ?>
   @foreach ($attendees as $attendee)
+  <?php $no = 1; 
+    if($attendee->organizationType == 'GI'){
+      $organizationType = 'Government Institution';
+    }elseif($attendee->organizationType == 'RE'){
+      $organizationType = 'Research';
+    }elseif($attendee->organizationType == 'NG'){
+      $organizationType = 'NGO’s';
+    }elseif($attendee->organizationType == 'PS'){
+      $organizationType = 'Private Sector';
+    }elseif($attendee->organizationType == 'FI'){
+      $organizationType = 'Financial Institution';
+    }elseif($attendee->organizationType == 'SP'){
+      $organizationType = 'Service Provider';
+    }
+  ?>
   <tr>
       <td>{{$no}}</td>
-      <td>{{ $attendee->fname}} {{$attendee->mname}} {{$attendee->lname}}</td>
-      <td>{{$attendee->organization}} - {{$attendee->organizationType}}</td>
+      <td>{{$attendee->fname}} {{$attendee->mname}} {{$attendee->lname}}</td>
+      <td>{{$attendee->organization}} - {{$organizationType}}</td>
       <td>{{$attendee->country}}</td>
       <td>{{$attendee->bemail}} / {{$attendee->email}}</td>
       <td>{{$attendee->phone}}</td>
       <td>{{$attendee->address}}</td>
+      <td>{{$attendee->booth}}</td>
+      <td>{{$attendee->products}}</td>
   </tr>
   <?php $no++; ?>
   @endforeach

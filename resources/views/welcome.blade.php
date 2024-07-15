@@ -1926,7 +1926,7 @@
                       <option value="other">Other (Specify)</option>
                     </select>
                     <div class="form-group hideOther">
-                      <input class="form-control" type="text" placeholder="Type of Booth Required">
+                      <input class="form-control" name="other" type="text" placeholder="Type of Booth Required">
                   </div>
                   </div>
                 </div>
