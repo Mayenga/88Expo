@@ -9,7 +9,7 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<a class="btn btn-success" style="float:left;margin-right:20px;" href="dashboard">GO BACK</a>
+<a class="btn btn-success" style="float:left;margin-right:20px;" href="dashboard">BACK</a>
 <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
 	<thead>
     <tr>
