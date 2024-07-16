@@ -996,7 +996,7 @@
                 <div class="media-body">
                   <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
                   <p class="mb-0">i. Hon. Prof. Kitila Alixander Mkumbo (MP), Minister of State in President's Office, Planning and Investment. </p>
-                  <p class="mb-0">ii.	Hon. Selemani Said Jafo (MP), Minister of State in Vice President's Office, (Union and Enviroment)</p>
+                  <p class="mb-0">ii.	Hon. Selemani Said Jafo (MP), Minister of Industry and Trade</p>
                 </div>
               </div>
             </div>
@@ -1020,7 +1020,7 @@
                 <div class="dash mx-1">-</div> -->
                 <div class="media-body">
                   <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
-                  <p class="mb-0">i. Hon. Ashatu Kijaji (MP),  Minister of State Office of the Vice President (Union and Environment)</p>
+                  <p class="mb-0">i. Hon. Ashatu Kijaji (MP), Minister of State Office of the Vice President (Union and Environment)</p>
                   <p class="mb-0">ii.	Hon. Shamat Shaame Khamis (MP) The Minister for Agriculture, Irrigation Natural Resourses and Livestock - Zanzibar</p>
                 </div>
               </div>
