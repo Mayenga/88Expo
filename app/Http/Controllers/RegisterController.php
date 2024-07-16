@@ -23,7 +23,8 @@ class RegisterController extends Controller
             $bemail = $values->bemail;
         }
         if($bemail == $request['bemail']){
-            return response()->json(['exists' => 'Details already exists']);
+            // return response()->json(['exists' => 'Details already exists']);
+            return response()->json(['success' => 'THANK YOU FOR REGISTERING FOR NANENANE AGRICULTURAL INTERNATIONAL EXPO, 2024']);   
         } else {
             $participant = new Participants;
             $participant->fname = $request->fname;
