@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+
+use App\Events\SendMail;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -43,11 +45,13 @@ class RegisterController extends Controller
             $participant->products = $request->products;
             $namefro = 'From Name';
             if ($participant->save()){
-                $data = array('name'=>$request->lname, 'email' => $request->email,'from' => $namefro);
-                Mail::send(['text'=>'welcomeMailTMP'], $data, function($message)use ($participant) {
-                    $message->to($participant->email, $participant->name)->subject('Welcome to Nanenane Agricultural International Expo 2024!');
-                    $message->from('ps@nanenane.kilimo.go.tz','Nanenane Agricultural International Expo, 2024');
-                });
+                // $data = array('name'=>$request->lname, 'email' => $request->email,'from' => $namefro);
+                // Mail::send(['text'=>'welcomeMailTMP'], $data, function($message)use ($participant) {
+                //     $message->to($participant->email, $participant->name)->subject('Welcome to Nanenane Agricultural International Expo 2024!');
+                //     $message->from('ps@nanenane.kilimo.go.tz','Nanenane Agricultural International Expo, 2024');
+                // });
+                // event(new SendMail($participant));
+                Mail::to($participant->email)->queue(new WelcomeEmail($participant));
                 return response()->json(['success' => 'THANK YOU FOR REGISTERING FOR NANENANE AGRICULTURAL INTERNATIONAL EXPO, 2024']);   
             }else{
                 return response()->json(['error' => 'Something went wrong!']);   
