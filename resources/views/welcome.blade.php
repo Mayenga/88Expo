@@ -1950,7 +1950,7 @@
                 <div class="col-lg-9 mt-sm-0 order-sm-0 order-1">
                   <div class="custom-control custom-checkbox mb-3">
                     <input class="custom-control-input" id="customControlValidation3" type="checkbox" name="radio-stacked" required="" value="option3">
-                    <label class="custom-control-label fs-0 text-500 text-base" for="customControlValidation3">Yes, I would like to receive emails from <a class="text-decoration-none" href="#">Nanenane International Trade Fair.</a> </label>
+                    <label class="custom-control-label fs-0 text-500 text-base" for="customControlValidation3">Yes, I would like to receive emails from <a class="text-decoration-none" href="#">NANENANE AGRICULTURAL INTERNATIONAL EXPO 2024.</a> </label>
                   </div>
                 </div>
               </div>
