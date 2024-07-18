@@ -874,7 +874,8 @@
                 <div class="dash mx-1">-</div> -->
                 <div class="media-body">
                   <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
-                  <p class="mb-0">Hon. Philip Isdor Mpango, The Vice President of The United Republic of Tanzania.</p>
+                  <p class="mb-0">Hon. Kassim Majaliwa Majaliwa(MP), The Prime Minister of The United Republic of Tanzania Government.</p>
+                  <!-- <p class="mb-0">Hon. Philip Isdor Mpango, The Vice President of The United Republic of Tanzania.</p> -->
                 </div>
               </div>
             </div>
@@ -922,7 +923,8 @@
                 <div class="dash mx-1">-</div> -->
                 <div class="media-body">
                   <p class="font-weight-bold text-500">GUEST(S) OF HONOR</p>
-                  <p class="mb-0">Hon. Kassim Majaliwa Majaliwa(MP), The Prime Minister of The United Republic of Tanzania Government.</p>
+                  <!-- <p class="mb-0">Hon. Kassim Majaliwa Majaliwa(MP), The Prime Minister of The United Republic of Tanzania Government.</p> -->
+                  <p class="mb-0">Hon. Hemed Suleiman Abdulla - Second Vice President of Revolutionary goverment of Zanzibar.</p>
                 </div>
               </div>
             </div>
