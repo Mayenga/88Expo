@@ -306,6 +306,13 @@
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <style>
+      .blockedLinks {
+            text-decoration: none;
+            cursor: default;
+            color: inherit;
+        }
+    </style>
   </head>
 
 
@@ -385,7 +392,8 @@
                   <h3 class="text-uppercase text-white font-weight-bold ls-1" data-zanim-xs='{"animation":"slide-right","delay":0.6,"duration":0.5}' data-zanim-trigger="scroll" id="heading3"></h3>
                   <p class="font-italic fs-2 mb-3" data-zanim-xs='{"animation":"slide-left","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" id="kaulimbiu3"></p>
                   <p class="lead text-sans-serif ls font-weight-extra-light mt-5" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll">Dodoma, Tanzania<br />01st - 08th August, 2024</p>
-                  <a class="btn btn-danger btn-lg mt-3" href="" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" data-toggle="modal" data-target=".bd-example-modal-lg" id="register8"></a>
+                  <a class="blockedLinks btn btn-danger btn-lg mt-3" href="" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" id="register8"></a>
+                  <!-- data-toggle="modal" data-target=".bd-example-modal-lg" -->
                   <!-- <a style="background-color: orange;" class="btn btn-danger btn-lg mt-3" href="" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" data-toggle="modal" data-target=".bd-exhibitor-modal-lg">book a stand !</a> -->
                   <a class="text-500 godown-arrow bounce" href="#about" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"slide-down","delay":0.9,"duration":1}' data-zanim-trigger="scroll"><span class="fas fa-chevron-down fa-lg"></span></a>
                 </div>
@@ -409,7 +417,7 @@
                     <h3 class="text-uppercase text-white font-weight-bold ls-1" data-zanim-xs='{"animation":"slide-right","delay":0.6,"duration":0.5}' data-zanim-trigger="scroll" id="heading"></h3>
                     <p class="font-italic fs-2 mb-3" data-zanim-xs='{"animation":"slide-left","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" id="kaulimbiu"></p>
                     <p class="lead text-sans-serif ls font-weight-extra-light mt-5" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll">Dodoma, Tanzania<br />01st - 08th August, 2024</p>
-                    <a class="btn btn-danger btn-lg mt-3" href="" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" data-toggle="modal" data-target=".bd-example-modal-lg" id="register3"></a>
+                    <a class="blockedLinks btn btn-danger btn-lg mt-3" href="" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" id="register3"></a>
                     <!-- <a style="background-color: orange;" class="btn btn-danger btn-lg mt-3" href="" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" data-toggle="modal" data-target=".bd-exhibitor-modal-lg">book a stand !</a> -->
                     <a class="text-500 godown-arrow bounce" href="#about" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"slide-down","delay":0.9,"duration":1}' data-zanim-trigger="scroll"><span class="fas fa-chevron-down fa-lg"></span></a>
                   </div>
@@ -433,7 +441,7 @@
                     <h3 class="text-uppercase text-white font-weight-bold ls-1" data-zanim-xs='{"animation":"slide-right","delay":0.6,"duration":0.5}' data-zanim-trigger="scroll" id="heading2"></h3>
                     <p class="font-italic fs-2 mb-3" data-zanim-xs='{"animation":"slide-left","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" id="kaulimbiu2"></p>
                     <p class="lead text-sans-serif ls font-weight-extra-light mt-5" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll">Dodoma, Tanzania<br />01st - 08th August, 2024</p>
-                    <a class="btn btn-danger btn-lg mt-3" href="" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" data-toggle="modal" data-target=".bd-example-modal-lg" id="register4"></a>
+                    <a class="blockedLinks btn btn-danger btn-lg mt-3" href="" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" id="register4"></a>
                     <!-- <a style="background-color: orange;" class="btn btn-danger btn-lg mt-3" href="" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll" data-toggle="modal" data-target=".bd-exhibitor-modal-lg">book a stand !</a> -->
                     <a class="text-500 godown-arrow bounce" href="#about" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"slide-down","delay":0.9,"duration":1}' data-zanim-trigger="scroll"><span class="fas fa-chevron-down fa-lg"></span></a>
                   </div>
@@ -463,11 +471,11 @@
           <div class="row text-white justify-content-center">
             <div class="col-6 col-xl-6 col-lg-6 text-center">
               <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="participants" style="font-size: medium;"></h3>
-              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/88 Participant Information Note 2024 REVISED VERSION 240620244.pdf" target="_blank" id="register6"></a>
+              <a class="blockedLinks btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/88 Participant Information Note 2024 REVISED VERSION 240620244.pdf" target="_blank" id="register6"></a>
             </div>
             <div class="col-6 col-xs-12 col-xl-6 col-lg-6 text-center">
             <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="mockup" style="font-size: medium;"></h3>
-            <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/Mockup_Design_Nane_Nane_Exhibition.pdf" target="_blank" id="register7"></a>
+            <a class="blockedLinks btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/Mockup_Design_Nane_Nane_Exhibition.pdf" target="_blank" id="register7"></a>
             </div>
           </div>
         </div>
@@ -835,7 +843,7 @@
           <div class="row text-white justify-content-center">
             <div class="col-xl-7 col-lg-9 text-center">
               <h3 class="mb-3 ls text-white fs-md-2 fs-lg-3" id="hotels"></h3>
-              <a class="btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/LIST OF HOTELS - DODOMA 88.pdf" target="_blank" id="register5"></a>
+              <a class="blockedLinks btn btn-lg btn-danger rounded-capsule mt-4" href="77assets/downloads/LIST OF HOTELS - DODOMA 88.pdf" target="_blank" id="register5"></a>
             </div>
           </div>
         </div>
